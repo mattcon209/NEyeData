@@ -1,0 +1,220 @@
+PS C:\Users\mattc\OneDrive\Desktop\Eye Cipher\Base-5 Trigrams> $log[0] | Get-Member
+
+
+   TypeName: System.Management.Automation.PSCustomObject
+
+Name        MemberType   Definition
+----        ----------   ----------
+Equals      Method       bool Equals(System.Object obj)
+GetHashCode Method       int GetHashCode()
+GetType     Method       type GetType()
+ToString    Method       string ToString()
+After       NoteProperty string After=R_SIMPLE1
+Before      NoteProperty string Before=INIT
+C1          NoteProperty int C1=133
+C10         NoteProperty int C10=34
+C2          NoteProperty int C2=101
+C3          NoteProperty int C3=220
+C9          NoteProperty int C9=100
+Compatible  NoteProperty bool Compatible=True
+Msg         NoteProperty int Msg=2
+Note        NoteProperty string Note=
+Payload     NoteProperty string Payload=242 111 10 44 3 133 214 232 113 144 131 220 41 101 110 10 100 40 241 21 244 ...
+Text        NoteProperty string Text=Msg 2: T_E5 (M_PROP2) performs A_CORE2 on X_MID2 â†’ R_SIMPLE1
+
+
+PS C:\Users\mattc\OneDrive\Desktop\Eye Cipher\Base-5 Trigrams> $log | Format-List *
+
+
+Msg        : 2
+Before     : INIT
+After      : R_SIMPLE1
+Text       : Msg 2: T_E5 (M_PROP2) performs A_CORE2 on X_MID2 â†’ R_SIMPLE1
+Payload    : 242 111 10 44 3 133 214 232 113 144 131 220 41 101 110 10 100 40 241 21 244 211 4 244 34
+C1         : 133
+C2         : 101
+C3         : 220
+C9         : 100
+C10        : 34
+Compatible : True
+Note       :
+
+Msg        : 27
+Before     : R_SIMPLE1
+After      : R_STATE1
+Text       : Msg 27: T_E2 (M_INT1) performs A_ACT3 on X_SIMPLE3 â†’ R_STATE1
+Payload    : 110 122 101 103 131 233 212 114 201 20 234 240 13 11 141 133 33 124 142 133 30 23 113 110 120
+C1         : 233
+C2         : 11
+C3         : 240
+C9         : 33
+C10        : 120
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=100,34 vs curr(C1,C2)=233,11
+
+Msg        : 32
+Before     : R_STATE1
+After      : R_STATE2
+Text       : Msg 32: T_E1 (M_PROP3) performs A_MULTI1 on X_OBJ3 â†’ R_STATE2
+Payload    : 21 142 140 213 233 234 304 100 123 140 243 142 233 200 114 140 303 101 304 212 4 211 42 220 33
+C1         : 234
+C2         : 200
+C3         : 142
+C9         : 303
+C10        : 33
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=33,120 vs curr(C1,C2)=234,200
+
+Msg        : 42
+Before     : R_STATE2
+After      : R_STATE3
+Text       : Msg 42: T_E4 (M_PROP1) performs A_CORE2 on X_SIMPLE2 â†’ R_STATE3
+Payload    : 232 203 12 114 112 110 111 34 101 13 114 141 12 110 241 210 114 300 204 14 11 220 10 43 100
+C1         : 110
+C2         : 110
+C3         : 141
+C9         : 114
+C10        : 100
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=303,33 vs curr(C1,C2)=110,110
+
+Msg        : 11
+Before     : R_STATE3
+After      : R_STATE4
+Text       : Msg 11: T_D1 (M_PROP4) performs A_CORE1 on X_MID1 â†’ R_STATE4
+Payload    : 224 223 11 144 111 23 31 20 140 44 101 302 20 220 311 221 114 204 240 41 30 4 231 302 132
+C1         : 23
+C2         : 220
+C3         : 302
+C9         : 114
+C10        : 132
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=114,100 vs curr(C1,C2)=23,220
+
+Msg        : 16
+Before     : R_STATE4
+After      : R_STATE5
+Text       : Msg 16: T_F1 (M_LOW1) performs A_ACT2 on X_OBJ1 â†’ R_STATE5
+Payload    : 310 302 142 303 114 100 222 33 20 144 222 224 202 311 21 231 222 23 142 32 202 240 101 43 112
+C1         : 100
+C2         : 311
+C3         : 224
+C9         : 222
+C10        : 112
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=114,132 vs curr(C1,C2)=100,311
+
+
+
+PS C:\Users\mattc\OneDrive\Desktop\Eye Cipher\Base-5 Trigrams> $log | Select-Object Msg,Before,After,Text,Payload,C1,C2,C3,C9,C10,Compatible,Note | Format-Table -Wrap -AutoSize
+
+Msg Before    After     Text                                                              Payload
+--- ------    -----     ----                                                              -------
+  2 INIT      R_SIMPLE1 Msg 2: T_E5 (M_PROP2) performs A_CORE2 on X_MID2 â†’ R_SIMPLE1    242 111 10 44 3 133 214 232
+                                                                                          113 144 131 220 41 101 110
+                                                                                          10 100 40 241 21 244 211 4
+                                                                                          244 34
+ 27 R_SIMPLE1 R_STATE1  Msg 27: T_E2 (M_INT1) performs A_ACT3 on X_SIMPLE3 â†’ R_STATE1   110 122 101 103 131 233 212
+                                                                                          114 201 20 234 240 13 11 141
+                                                                                          133 33 124 142 133 30 23 113
+                                                                                          110 120
+ 32 R_STATE1  R_STATE2  Msg 32: T_E1 (M_PROP3) performs A_MULTI1 on X_OBJ3 â†’ R_STATE2   21 142 140 213 233 234 304
+                                                                                          100 123 140 243 142 233 200
+                                                                                          114 140 303 101 304 212 4
+                                                                                          211 42 220 33
+ 42 R_STATE2  R_STATE3  Msg 42: T_E4 (M_PROP1) performs A_CORE2 on X_SIMPLE2 â†’ R_STATE3 232 203 12 114 112 110 111
+                                                                                          34 101 13 114 141 12 110 241
+                                                                                          210 114 300 204 14 11 220 10
+                                                                                          43 100
+ 11 R_STATE3  R_STATE4  Msg 11: T_D1 (M_PROP4) performs A_CORE1 on X_MID1 â†’ R_STATE4    224 223 11 144 111 23 31 20
+                                                                                          140 44 101 302 20 220 311
+                                                                                          221 114 204 240 41 30 4 231
+                                                                                          302 132
+ 16 R_STATE4  R_STATE5  Msg 16: T_F1 (M_LOW1) performs A_ACT2 on X_OBJ1 â†’ R_STATE5      310 302 142 303 114 100 222
+                                                                                          33 20 144 222 224 202 311 21
+                                                                                          231 222 23 142 32 202 240
+                                                                                          101 43 112
+
+
+PS C:\Users\mattc\OneDrive\Desktop\Eye Cipher\Base-5 Trigrams> $log | Format-List *
+
+
+Msg        : 2
+Before     : INIT
+After      : R_SIMPLE1
+Text       : Msg 2: T_E5 (M_PROP2) performs A_CORE2 on X_MID2 â†’ R_SIMPLE1
+Payload    : 242 111 10 44 3 133 214 232 113 144 131 220 41 101 110 10 100 40 241 21 244 211 4 244 34
+C1         : 133
+C2         : 101
+C3         : 220
+C9         : 100
+C10        : 34
+Compatible : True
+Note       :
+
+Msg        : 27
+Before     : R_SIMPLE1
+After      : R_STATE1
+Text       : Msg 27: T_E2 (M_INT1) performs A_ACT3 on X_SIMPLE3 â†’ R_STATE1
+Payload    : 110 122 101 103 131 233 212 114 201 20 234 240 13 11 141 133 33 124 142 133 30 23 113 110 120
+C1         : 233
+C2         : 11
+C3         : 240
+C9         : 33
+C10        : 120
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=100,34 vs curr(C1,C2)=233,11
+
+Msg        : 32
+Before     : R_STATE1
+After      : R_STATE2
+Text       : Msg 32: T_E1 (M_PROP3) performs A_MULTI1 on X_OBJ3 â†’ R_STATE2
+Payload    : 21 142 140 213 233 234 304 100 123 140 243 142 233 200 114 140 303 101 304 212 4 211 42 220 33
+C1         : 234
+C2         : 200
+C3         : 142
+C9         : 303
+C10        : 33
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=33,120 vs curr(C1,C2)=234,200
+
+Msg        : 42
+Before     : R_STATE2
+After      : R_STATE3
+Text       : Msg 42: T_E4 (M_PROP1) performs A_CORE2 on X_SIMPLE2 â†’ R_STATE3
+Payload    : 232 203 12 114 112 110 111 34 101 13 114 141 12 110 241 210 114 300 204 14 11 220 10 43 100
+C1         : 110
+C2         : 110
+C3         : 141
+C9         : 114
+C10        : 100
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=303,33 vs curr(C1,C2)=110,110
+
+Msg        : 11
+Before     : R_STATE3
+After      : R_STATE4
+Text       : Msg 11: T_D1 (M_PROP4) performs A_CORE1 on X_MID1 â†’ R_STATE4
+Payload    : 224 223 11 144 111 23 31 20 140 44 101 302 20 220 311 221 114 204 240 41 30 4 231 302 132
+C1         : 23
+C2         : 220
+C3         : 302
+C9         : 114
+C10        : 132
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=114,100 vs curr(C1,C2)=23,220
+
+Msg        : 16
+Before     : R_STATE4
+After      : R_STATE5
+Text       : Msg 16: T_F1 (M_LOW1) performs A_ACT2 on X_OBJ1 â†’ R_STATE5
+Payload    : 310 302 142 303 114 100 222 33 20 144 222 224 202 311 21 231 222 23 142 32 202 240 101 43 112
+C1         : 100
+C2         : 311
+C3         : 224
+C9         : 222
+C10        : 112
+Compatible : False
+Note       : Operand mismatch: prev(C9,C10)=114,132 vs curr(C1,C2)=100,311
+
+

@@ -1,0 +1,35 @@
+Msg 2
+T_E5 performs A_CORE2 on X_MID2 resulting in R_SIMPLE1
+→ A general-purpose actor applies a core operation to a mid-level target, producing a simple success state.
+
+Msg 6
+T_D1 performs A_PRIM1 on X_MULTI1 resulting in R_SIMPLE2
+→ A core operator performs a primitive action on a multi-role target, producing a primitive success state.
+
+Msg 11
+T_D1 performs A_CORE1 on X_MID1 resulting in R_STATE4
+→ A core operator executes a core action on a high-transition mid-level target, producing a major state transition.
+
+Msg 16
+T_F1 performs A_ACT2 on X_OBJ1 resulting in R_STATE5
+→ A high-energy operator transforms a high-impact object target, producing the strongest state transition.
+
+Msg 21
+T_E3 performs A_REL1 on X_SIMPLE1 resulting in R_SIMPLE3
+→ A general-purpose actor performs a relational action on a basic relational target, producing a relational success state.
+
+Msg 27
+T_E2 performs A_ACT3 on X_SIMPLE3 resulting in R_STATE1
+→ A general-purpose actor performs an intense action on a low-sensitivity simple target, producing a low-level state change.
+
+Msg 32
+T_E1 performs A_MULTI1 on X_OBJ3 resulting in R_STATE2
+→ A general-purpose actor performs a compound action on a compound-responsive object target, producing a mid-level state change.
+
+Msg 37
+T_F2 performs A_ACT1 on X_OBJ2 resulting in R_MULTI1
+→ A high-energy operator triggers a branching-capable object target, producing a multi-effect outcome.
+
+Msg 42
+T_E4 performs A_CORE2 on X_SIMPLE2 resulting in R_STATE3
+→ A general-purpose actor applies a core operation to a high-sensitivity simple target, producing a high-level state change.

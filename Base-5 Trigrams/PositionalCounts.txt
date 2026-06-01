@@ -1,0 +1,25 @@
+=== Positional Digit Counts ===
+
+Total trigrams found: 1036
+
+--- Position 1 (hundreds place) ---
+Digit 0: 317
+Digit 1: 312
+Digit 2: 310
+Digit 3: 97
+Digit 4: 0
+
+--- Position 2 (tens place) ---
+Digit 0: 230
+Digit 1: 219
+Digit 2: 194
+Digit 3: 204
+Digit 4: 189
+
+--- Position 3 (ones place) ---
+Digit 0: 227
+Digit 1: 208
+Digit 2: 195
+Digit 3: 189
+Digit 4: 217
+

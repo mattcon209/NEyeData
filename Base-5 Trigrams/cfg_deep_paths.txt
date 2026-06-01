@@ -1,0 +1,45 @@
+﻿
+Max depth: 0
+Deepest nodes (depth = 0): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82
+
+Path #1 (end node 0, depth 0)
+Nodes  : 0
+Opcodes: 0
+
+Path #2 (end node 1, depth 0)
+Nodes  : 1
+Opcodes: 0
+
+Path #3 (end node 2, depth 0)
+Nodes  : 2
+Opcodes: 0
+
+Path #4 (end node 3, depth 0)
+Nodes  : 3
+Opcodes: 0
+
+Path #5 (end node 4, depth 0)
+Nodes  : 4
+Opcodes: 0
+
+Path #6 (end node 5, depth 0)
+Nodes  : 5
+Opcodes: 0
+
+Path #7 (end node 6, depth 0)
+Nodes  : 6
+Opcodes: 0
+
+Path #8 (end node 7, depth 0)
+Nodes  : 7
+Opcodes: 0
+
+Path #9 (end node 8, depth 0)
+Nodes  : 8
+Opcodes: 0
+
+Path #10 (end node 9, depth 0)
+Nodes  : 9
+Opcodes: 0
+
+Done. Wrote deep paths to .\cfg_deep_paths.txt

@@ -1,0 +1,75 @@
+﻿Block → Message mapping
+Generated: 05/31/2026 12:24:24
+
+=== Block east_block_0 (east_block_0.txt) ===
+Triples in block: 99
+MsgId 0 at index 0 (len 25)
+MsgId 1 at index 25 (len 25)
+MsgId 2 at index 50 (len 25)
+MsgId 3 at index 75 (len 24)
+
+=== Block west_block_0 (west_block_0.txt) ===
+Triples in block: 103
+MsgId 4 at index 0 (len 25)
+MsgId 5 at index 25 (len 25)
+MsgId 6 at index 50 (len 25)
+MsgId 7 at index 75 (len 25)
+MsgId 8 at index 100 (len 3)
+
+=== Block east_block_1 (east_block_1.txt) ===
+Triples in block: 118
+MsgId 9 at index 0 (len 25)
+MsgId 10 at index 25 (len 25)
+MsgId 11 at index 50 (len 25)
+MsgId 12 at index 75 (len 25)
+MsgId 13 at index 100 (len 18)
+
+=== Block west_block_1 (west_block_1.txt) ===
+Triples in block: 102
+MsgId 14 at index 0 (len 25)
+MsgId 15 at index 25 (len 25)
+MsgId 16 at index 50 (len 25)
+MsgId 17 at index 75 (len 25)
+MsgId 18 at index 100 (len 2)
+
+=== Block east_block_2 (east_block_2.txt) ===
+Triples in block: 137
+MsgId 19 at index 0 (len 25)
+MsgId 20 at index 25 (len 25)
+MsgId 21 at index 50 (len 25)
+MsgId 22 at index 75 (len 25)
+MsgId 23 at index 100 (len 25)
+MsgId 24 at index 125 (len 12)
+
+=== Block west_block_2 (west_block_2.txt) ===
+Triples in block: 124
+MsgId 25 at index 0 (len 25)
+MsgId 26 at index 25 (len 25)
+MsgId 27 at index 50 (len 25)
+MsgId 28 at index 75 (len 25)
+MsgId 29 at index 100 (len 24)
+
+=== Block east_block_3 (east_block_3.txt) ===
+Triples in block: 119
+MsgId 30 at index 0 (len 25)
+MsgId 31 at index 25 (len 25)
+MsgId 32 at index 50 (len 25)
+MsgId 33 at index 75 (len 25)
+MsgId 34 at index 100 (len 19)
+
+=== Block west_block_3 (west_block_3.txt) ===
+Triples in block: 120
+MsgId 35 at index 0 (len 25)
+MsgId 36 at index 25 (len 25)
+MsgId 37 at index 50 (len 25)
+MsgId 38 at index 75 (len 25)
+MsgId 39 at index 100 (len 20)
+
+=== Block east_block_4 (east_block_4.txt) ===
+Triples in block: 114
+MsgId 40 at index 0 (len 25)
+MsgId 41 at index 25 (len 25)
+MsgId 42 at index 50 (len 25)
+MsgId 43 at index 75 (len 25)
+MsgId 44 at index 100 (len 14)
+

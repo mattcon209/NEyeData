@@ -1,0 +1,137 @@
+⭐ TYPE SEMANTICS (Inferred Roles)
+🟦 T_D1 (224) — “Core Operator / System Primitive”
+Evidence:
+
+Uses A_PRIM1 and A_CORE1
+
+Produces SIMPLE2 and STATE4
+
+Targets X_MULTI1 and X_MID1
+
+Only TYPE that uses both primitive and core actions
+
+Interpretation:  
+T_D1 is a fundamental system actor — something like a kernel process, root function, or base instruction executor.
+
+It performs the “ground truth” operations of the system.
+
+🟩 T_E‑family (E1–E5) — “General Actors / Agents”
+Evidence:
+
+Appear in 5 of 9 messages
+
+Use the widest range of actions:
+
+A_CORE2
+
+A_REL1
+
+A_ACT3
+
+A_MULTI1
+
+Produce outcomes from SIMPLE1 → STATE3
+
+Interact with simple, mid, and object targets
+
+Interpretation:  
+The E‑family is the general-purpose entity class.
+They are the “workers” or “agents” of the system.
+
+They perform:
+
+relational operations
+
+core operations
+
+intense operations
+
+multi‑operations
+
+They are flexible and diverse.
+
+🟧 T_F‑family (F1–F2) — “High‑Energy / Transformative Operators”
+Evidence:
+
+Use A_ACT1 and A_ACT2 (high‑energy actions)
+
+Target object‑class entities
+
+Produce STATE5 and MULTI1 (the strongest outcomes)
+
+Interpretation:  
+F‑types are transformers — entities that cause major or branching state changes.
+
+They are the “heavy machinery” of the system.
+
+🟪 T_A‑family (A1–A4) — “Entity‑like / Biological Class”
+Evidence:
+
+Appear rarely in this dataset
+
+Use core actions
+
+Produce mid‑level state changes
+
+Values cluster tightly (111–114)
+
+Interpretation:  
+A‑types are likely entity‑like objects — perhaps “units”, “nodes”, or “actors” with internal states.
+
+They behave more like subjects than operators.
+
+🟥 T_B1 (131) — “Specialized High‑Intensity Actor”
+Evidence:
+
+Uses A_ACT3 (intense action)
+
+Produces STATE1
+
+Paired with intense modifier M_INT1
+
+Interpretation:  
+B‑types are specialized agents that perform high‑intensity operations but only produce low‑level state changes.
+
+They may be “special tools” or “subroutines”.
+
+🟫 T_C‑family (C1–C2) — “System‑Level / Relational Controllers”
+Evidence:
+
+C1 uses A_REL1 (relational action)
+
+C2 uses A_ACT1 (active operation)
+
+Outcomes: SIMPLE3 → MULTI1
+
+Targets: simple and object classes
+
+Interpretation:  
+C‑types are controllers — entities that manage relationships or system‑level interactions.
+
+They sit between D‑types (core) and E‑types (general actors).
+
+🟦 T_E5, T_E4, T_E3, T_E2, T_E1 — Sub‑roles inside the E‑family
+Each E‑subtype has a distinct behavioral signature:
+
+T_E5 → core action → simple result
+
+T_E3 → relational action → simple result
+
+T_E2 → intense action → low‑state result
+
+T_E1 → multi‑action → mid‑state result
+
+T_E4 → core action → high‑state result
+
+This is a hierarchy inside the E‑family.
+
+⭐ Unified Interpretation (The Big Picture)
+Here is the Eye Cipher’s TYPE taxonomy in plain language:
+
+Code
+T_D*  — foundational system operators (kernel / primitives)
+T_E*  — general-purpose agents (workers / actors)
+T_F*  — high-energy transformers (heavy operations)
+T_A*  — entity-like units (objects with internal state)
+T_B*  — specialized intense operators (tools / subroutines)
+T_C*  — relational/system controllers (managers / routers)

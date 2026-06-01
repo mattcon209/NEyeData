@@ -1,0 +1,109 @@
+⭐ Grouped by OUTCOME (R\_)*
+Below is every instruction sorted by its R\_XXXX outcome label.
+
+This reveals the “end states” of the Eye Cipher’s operations.
+
+🟦 R_SIMPLE1 (10)
+Appears in: Msg 2
+
+Msg 2
+T_E5 M_PROP2 A_CORE2 X_MID2 R_SIMPLE1
+
+Interpretation
+A simple, low‑impact result from a core action.
+This is the “baseline success” state.
+
+🟩 R_SIMPLE2 (11)
+Appears in: Msg 6
+
+Msg 6
+T_D1 M_INT2 A_PRIM1 X_MULTI1 R_SIMPLE2
+
+Interpretation
+Another simple result, but from a primitive action.
+Likely a “basic operation completed” state.
+
+🟧 R_SIMPLE3 (14)
+Appears in: Msg 21
+
+Msg 21
+T_E3 M_LOW2 A_REL1 X_SIMPLE1 R_SIMPLE3
+
+Interpretation
+A relational action producing a simple result.
+This looks like a “link established” or “relation updated” state.
+
+🟪 R_STATE1 (133)
+Appears in: Msg 27
+
+Msg 27
+T_E2 M_INT1 A_ACT3 X_SIMPLE3 R_STATE1
+
+Interpretation
+A more complex state change.
+This is the first “stateful” outcome.
+
+🟥 R_STATE2 (140)
+Appears in: Msg 32
+
+Msg 32
+T_E1 M_PROP3 A_MULTI1 X_OBJ3 R_STATE2
+
+Interpretation
+A compound action producing a mid‑level state change.
+This is a “multi‑effect” operation.
+
+🟫 R_STATE3 (210)
+Appears in: Msg 42
+
+Msg 42
+T_E4 M_PROP1 A_CORE2 X_SIMPLE2 R_STATE3
+
+Interpretation
+A core action producing a higher‑level state.
+This is a “significant update” state.
+
+🟦 R_STATE4 (221)
+Appears in: Msg 11
+
+Msg 11
+T_D1 M_PROP4 A_CORE1 X_MID1 R_STATE4
+
+Interpretation
+A core action from a stable D‑type producing a strong state change.
+This is a “major transition” state.
+
+🟩 R_STATE5 (231)
+Appears in: Msg 16
+
+Msg 16
+T_F1 M_LOW1 A_ACT2 X_OBJ1 R_STATE5
+
+Interpretation
+A high‑energy action producing the strongest state change we’ve seen.
+This is a “critical update” or “high‑impact” state.
+
+🟧 R_MULTI1 (243)
+Appears in: Msg 37
+
+Msg 37
+T_F2 M_PROP1 A_ACT1 X_OBJ2 R_MULTI1
+
+Interpretation
+A multi‑effect outcome.
+This is the only outcome that appears in multiple roles (action, target, outcome).
+
+This symbol is special.
+
+
+Summary:
+
+R_SIMPLE1  — basic success
+R_SIMPLE2  — primitive success
+R_SIMPLE3  — relational success
+R_STATE1   — low-level state change
+R_STATE2   — mid-level state change
+R_STATE3   — high-level state change
+R_STATE4   — major transition
+R_STATE5   — critical transition
+R_MULTI1   — multi-effect / branching outcome

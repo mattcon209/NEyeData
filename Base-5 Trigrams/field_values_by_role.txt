@@ -1,0 +1,234 @@
+﻿Message 0 (pos0):
+  Field0_HeaderVar: 200
+  Field1_HeaderConst: 231 10 143
+  Field2_Params: 222 23 300 104 44 221 132 240 231 222 112
+  Field3_Footer: 24 311 13 30 303 2 104 23 144 1
+
+Message 1 (pos1):
+  Field0_Flags: 310 312 130 223
+  Field1_ModeParams: 311 41 34 0 130 201
+  Field2_NegCore: 230 101 24 41 240 142 134 143 132 34 143
+  Field3_Footer: 23 142 34 144
+
+Message 2 (pos2):
+  Field0_Payload: 242 111 10 44 3 133 214 232 113 144 131 220 41 101 110 10 100 40 241 21 244 211 4 244 34
+
+Message 3 (pos3):
+  Field0_Flags: 241 4 201 131
+  Field1_RespParams: 133 310 242 204 223 304
+  Field2_RespCore: 311 30 31 134 111 110 22 113 212 103 23
+  Field3_Footer: 224 133 143
+
+Message 4 (pos0):
+  Field0_HeaderVar: 310
+  Field1_HeaderConst: 231 10 143
+  Field2_Params: 222 23 300 104 44 221 132 240 231 222 112
+  Field3_Footer: 24 311 13 30 303 2 104 23 144 1
+
+Message 5 (pos1):
+  Field0_Flags: 104 21 110 202
+  Field1_ModeParams: 311 41 34 0 100 101
+  Field2_NegCore: 204 40 24 41 240 142 134 143 132 34 143
+  Field3_Footer: 23 142 34 144
+
+Message 6 (pos2):
+  Field0_Payload: 134 101 214 302 224 133 304 103 242 224 1 110 243 43 232 11 113 100 224 311 233 141 32 121 23
+
+Message 7 (pos3):
+  Field0_Flags: 32 41 233 23
+  Field1_RespParams: 14 141 232 212 114 222
+  Field2_RespCore: 312 30 20 243 222 2 21 230 242 122 134
+  Field3_Footer: 20 133 233 222
+
+Message 8 (tail):
+  Field0_Start: 14
+  Field1_Core: 114 33
+  Field2_PayloadOrChecksum: <empty>
+
+Message 9 (pos0):
+  Field0_HeaderVar: 121
+  Field1_HeaderConst: 231 10 143
+  Field2_Params: 222 23 300 104 44 221 132 240 231 222 112
+  Field3_Footer: 24 311 13 30 303 2 104 23 144 1
+
+Message 10 (pos1):
+  Field0_Flags: 234 301 202 14
+  Field1_ModeParams: 143 231 310 42 224 212
+  Field2_NegCore: 130 144 303 3 31 211 34 142 130 310 11
+  Field3_Footer: 23 224 104 144
+
+Message 11 (pos2):
+  Field0_Payload: 224 223 11 144 111 23 31 20 140 44 101 302 20 220 311 221 114 204 240 41 30 4 231 302 132
+
+Message 12 (pos3):
+  Field0_Flags: 122 110 42 0
+  Field1_RespParams: 21 131 242 212 40 43
+  Field2_RespCore: 212 230 131 43 33 242 132 10 3 101 303
+  Field3_Footer: 13 10 204 140
+
+Message 13 (tail):
+  Field0_Start: 302
+  Field1_Core: 100 224 221
+  Field2_PayloadOrChecksum: 31 134 204 201 40 223 100 21 101 140 203 220 123 114
+
+Message 14 (pos0):
+  Field0_HeaderVar: 301
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 234 141 112 1 132 220 101 143 200
+  Field3_Footer: 310 112 44 210 221 142 22 41 22 144
+
+Message 15 (pos1):
+  Field0_Flags: 204 114 100 121
+  Field1_ModeParams: 30 211 210 40 14 13
+  Field2_NegCore: 222 23 312 14 134 104 220 203 312 132 310
+  Field3_Footer: 10 133 241 3
+
+Message 16 (pos2):
+  Field0_Payload: 310 302 142 303 114 100 222 33 20 144 222 224 202 311 21 231 222 23 142 32 202 240 101 43 112
+
+Message 17 (pos3):
+  Field0_Flags: 111 224 43 120
+  Field1_RespParams: 112 200 11 1 100 13
+  Field2_RespCore: 122 142 133 101 301 230 233 310 32 12 140
+  Field3_Footer: 223 24 203 223
+
+Message 18 (tail):
+  Field0_Start: 220
+  Field1_Core: 31
+  Field2_PayloadOrChecksum: <empty>
+
+Message 19 (pos0):
+  Field0_HeaderVar: 223
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 2 220 104 130 303 142 220 300 232
+  Field3_Footer: 241 220 2 230 12 142 24 140 244 214
+
+Message 20 (pos1):
+  Field0_Flags: 131 310 23 220
+  Field1_ModeParams: 23 311 42 120 200 130
+  Field2_NegCore: 124 2 214 143 111 301 2 310 300 1 211
+  Field3_Footer: 232 21 41 13
+
+Message 21 (pos2):
+  Field0_Payload: 130 230 140 300 210 124 220 132 23 3 42 212 2 11 213 14 240 1 213 211 223 233 100 304 12
+
+Message 22 (pos3):
+  Field0_Flags: 40 34 224 2
+  Field1_RespParams: 231 243 110 241 31 22
+  Field2_RespCore: 110 230 122 40 23 42 223 33 141 224 214
+  Field3_Footer: 131 311 312 42
+
+Message 23 (tail):
+  Field0_Start: 303
+  Field1_Core: 121 142 32
+  Field2_PayloadOrChecksum: 4 11 32 10 121 304 223 1 224 234 30 133 4 213 211 111 24 224 213 33 134
+
+Message 24 (tail):
+  Field0_Start: 303
+  Field1_Core: 234 1 0
+  Field2_PayloadOrChecksum: 141 40 241 243 100 120 13 44
+
+Message 25 (pos0):
+  Field0_HeaderVar: 114
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 43 244 21 23 103 101 34 143 232
+  Field3_Footer: 212 122 220 114 103 244 20 32 112 21
+
+Message 26 (pos1):
+  Field0_Flags: 33 34 133 34
+  Field1_ModeParams: 311 132 4 222 14 141
+  Field2_NegCore: 144 112 201 301 213 4 133 142 32 232 304
+  Field3_Footer: 41 112 134 31
+
+Message 27 (pos2):
+  Field0_Payload: 110 122 101 103 131 233 212 114 201 20 234 240 13 11 141 133 33 124 142 133 30 23 113 110 120
+
+Message 28 (pos3):
+  Field0_Flags: 222 122 0 122
+  Field1_RespParams: 10 123 210 122 23 130
+  Field2_RespCore: 100 14 41 21 224 10 304 132 233 21 241
+  Field3_Footer: 21 143 3 232
+
+Message 29 (tail):
+  Field0_Start: 221
+  Field1_Core: 130 42 24
+  Field2_PayloadOrChecksum: 120 200 221 124 21 2 231 144 201 203 32 243 121 300 244 204 44 110 204 240
+
+Message 30 (pos0):
+  Field0_HeaderVar: 102
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 2 220 104 130 2 210 14 30 214
+  Field3_Footer: 33 233 3 121 10 142 302 134 123 1
+
+Message 31 (pos1):
+  Field0_Flags: 33 103 301 4
+  Field1_ModeParams: 114 220 223 213 310 32
+  Field2_NegCore: 204 304 300 143 204 210 34 222 224 24 142
+  Field3_Footer: 201 240 300 10
+
+Message 32 (pos2):
+  Field0_Payload: 21 142 140 213 233 234 304 100 123 140 243 142 233 200 114 140 303 101 304 212 4 211 42 220 33
+
+Message 33 (pos3):
+  Field0_Flags: 300 133 220 214
+  Field1_RespParams: 232 223 132 144 113 130
+  Field2_RespCore: 230 304 302 12 3 101 222 111 303 101 212
+  Field3_Footer: 234 130 4 43
+
+Message 34 (tail):
+  Field0_Start: 101
+  Field1_Core: 23 232 132
+  Field2_PayloadOrChecksum: 123 242 21 124 230 220 100 11 310 231 233 302 214 303 34
+
+Message 35 (pos0):
+  Field0_HeaderVar: 302
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 2 220 104 130 2 210 14 30 214
+  Field3_Footer: 33 233 3 121 10 142 220 41 310 1
+
+Message 36 (pos1):
+  Field0_Flags: 242 210 31 312
+  Field1_ModeParams: 120 212 34 1 231 33
+  Field2_NegCore: 102 124 32 244 311 124 24 303 0 100 230
+  Field3_Footer: 133 231 224 123
+
+Message 37 (pos2):
+  Field0_Payload: 311 43 44 200 212 110 241 300 101 233 204 212 211 200 241 243 24 41 13 112 101 223 10 122 34
+
+Message 38 (pos3):
+  Field0_Flags: 133 231 142 203
+  Field1_RespParams: 114 231 43 243 111 204
+  Field2_RespCore: 123 302 232 21 223 304 11 42 41 201 234
+  Field3_Footer: 244 41 10 32
+
+Message 39 (tail):
+  Field0_Start: 232
+  Field1_Core: 122 104 41
+  Field2_PayloadOrChecksum: 220 24 312 134 110 4 40 132 120 1 111 204 141 40 130 110
+
+Message 40 (pos0):
+  Field0_HeaderVar: 113
+  Field1_HeaderConst: 231 10 144
+  Field2_Params: 300 204 2 220 104 130 2 210 14 30 214
+  Field3_Footer: 33 233 3 121 10 142 113 41 214 134
+
+Message 41 (pos1):
+  Field0_Flags: 33 103 301 214
+  Field1_ModeParams: 114 220 223 304 102 22
+  Field2_NegCore: 204 10 144 143 204 210 202 222 242 234 20
+  Field3_Footer: 212 42 213 143
+
+Message 42 (pos2):
+  Field0_Payload: 232 203 12 114 112 110 111 34 101 13 114 141 12 110 241 210 114 300 204 14 11 220 10 43 100
+
+Message 43 (pos3):
+  Field0_Flags: 140 132 310 100
+  Field1_RespParams: 22 42 301 40 201 222
+  Field2_RespCore: 41 130 14 131 20 134 243 13 113 240 243
+  Field3_Footer: 11 111 41 242
+
+Message 44 (tail):
+  Field0_Start: 10
+  Field1_Core: 130 221 201
+  Field2_PayloadOrChecksum: 132 231 224 244 221 100 223 132 44 131
+

@@ -1,0 +1,158 @@
+﻿State sequence:
+R_SIMPLE1 → R_STATE1 → R_STATE2 → R_STATE3 → R_STATE4 → R_STATE5
+
+State ranks:
+1 → 3 → 4 → 5 → 6 → 7
+
+Field correlations:
+
+Field 0
+  Values: 242 → 110 → 21 → 232 → 224 → 310
+  Deltas: -132, -89, 211, -8, 86
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -64
+
+Field 1
+  Values: 111 → 122 → 142 → 203 → 223 → 302
+  Deltas: 11, 20, 61, 20, 79
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  202
+
+Field 2
+  Values: 10 → 101 → 140 → 12 → 11 → 142
+  Deltas: 91, 39, -128, -1, 131
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  223
+
+Field 3
+  Values: 44 → 103 → 213 → 114 → 144 → 303
+  Deltas: 59, 110, -99, 30, 159
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  318
+
+Field 4
+  Values: 3 → 131 → 233 → 112 → 111 → 114
+  Deltas: 128, 102, -121, -1, 3
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  239
+
+Field 5
+  Values: 133 → 233 → 234 → 110 → 23 → 100
+  Deltas: 100, 1, -124, -87, 77
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  67
+
+Field 6
+  Values: 214 → 212 → 304 → 111 → 31 → 222
+  Deltas: -2, 92, -193, -80, 191
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  6
+
+Field 7
+  Values: 232 → 114 → 100 → 34 → 20 → 33
+  Deltas: -118, -14, -66, -14, 13
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -317
+
+Field 8
+  Values: 113 → 201 → 123 → 101 → 140 → 20
+  Deltas: 88, -78, -22, 39, -120
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -5
+
+Field 9
+  Values: 144 → 20 → 140 → 13 → 44 → 144
+  Deltas: -124, 120, -127, 31, 100
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -124
+
+Field 10
+  Values: 131 → 234 → 243 → 114 → 101 → 222
+  Deltas: 103, 9, -129, -13, 121
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  194
+
+Field 11
+  Values: 220 → 240 → 142 → 141 → 302 → 224
+  Deltas: 20, -98, -1, 161, -78
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  24
+
+Field 12
+  Values: 41 → 13 → 233 → 12 → 20 → 202
+  Deltas: -28, 220, -221, 8, 182
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  133
+
+Field 13
+  Values: 101 → 11 → 200 → 110 → 220 → 311
+  Deltas: -90, 189, -90, 110, 91
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  120
+
+Field 14
+  Values: 110 → 141 → 114 → 241 → 311 → 21
+  Deltas: 31, -27, 127, 70, -290
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -58
+
+Field 15
+  Values: 10 → 133 → 140 → 210 → 221 → 231
+  Deltas: 123, 7, 70, 11, 10
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  344
+
+Field 16
+  Values: 100 → 33 → 303 → 114 → 114 → 222
+  Deltas: -67, 270, -189, 0, 108
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  55
+
+Field 17
+  Values: 40 → 124 → 101 → 300 → 204 → 23
+  Deltas: 84, -23, 199, -96, -181
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  67
+
+Field 18
+  Values: 241 → 142 → 304 → 204 → 240 → 142
+  Deltas: -99, 162, -100, 36, -98
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -198
+
+Field 19
+  Values: 21 → 133 → 212 → 14 → 41 → 32
+  Deltas: 112, 79, -198, 27, -9
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  123
+
+Field 20
+  Values: 244 → 30 → 4 → 11 → 30 → 202
+  Deltas: -214, -26, 7, 19, 172
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -256
+
+Field 21
+  Values: 211 → 23 → 211 → 220 → 4 → 240
+  Deltas: -188, 188, 9, -216, 236
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -159
+
+Field 22
+  Values: 4 → 113 → 42 → 10 → 231 → 101
+  Deltas: 109, -71, -32, 221, -130
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  206
+
+Field 23
+  Values: 244 → 110 → 220 → 43 → 302 → 43
+  Deltas: -134, 110, -177, 259, -259
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  -335
+
+Field 24
+  Values: 34 → 120 → 33 → 100 → 132 → 112
+  Deltas: 86, -87, 67, 32, -20
+  StateΔ: 2, 1, 1, 1, 1
+  Score:  164
+

@@ -1,0 +1,66 @@
+EYE CIPHER — STATE TRANSITION GRAPH v0.1
+========================================
+
+State symbols (OUTCOME column):
+--------------------------------
+R_SIMPLE1  (10)  — basic success
+R_SIMPLE2  (11)  — primitive success
+R_SIMPLE3  (14)  — relational success
+R_STATE1   (133) — low-level state change
+R_STATE2   (140) — mid-level state change
+R_STATE3   (210) — high-level state change
+R_STATE4   (221) — major transition
+R_STATE5   (231) — critical transition
+R_MULTI1   (243) — multi-effect / branching outcome
+
+Observed transitions:
+---------------------
+
+1. Simple → Simple transitions
+   - T_E5 using A_CORE2:       SIMPLE1
+   - T_D1 using A_PRIM1:       SIMPLE2
+   - T_E3 using A_REL1:        SIMPLE3
+
+   These form a "stable base layer" of the system.
+
+2. Simple → Stateful transitions
+   - T_E2 using A_ACT3:        STATE1
+   - T_E1 using A_MULTI1:      STATE2
+   - T_E4 using A_CORE2:       STATE3
+
+   E-types escalate states through more complex actions.
+
+3. Stateful → Higher-state transitions
+   - T_D1 using A_CORE1:       STATE4
+   - T_F1 using A_ACT2:        STATE5
+
+   D-types and F-types produce the strongest transitions.
+
+4. Multi-effect transitions
+   - T_F2 using A_ACT1:        MULTI1
+
+   MULTI1 is the only outcome that appears as:
+     - an ACTION (243)
+     - a TARGET (243)
+     - an OUTCOME (243)
+
+   This symbol is a meta-operator.
+
+State graph structure:
+----------------------
+
+   SIMPLE1   SIMPLE2   SIMPLE3
+        \      |      /
+         \     |     /
+          \    |    /
+           →  STATE1  →  STATE2  →  STATE3  →  STATE4  →  STATE5
+                                ↘
+                                 MULTI1 (branching)
+
+Interpretation:
+---------------
+- The system has a clear progression from simple → complex states.
+- E-types dominate the mid-level transitions.
+- D-types and F-types produce the strongest state changes.
+- MULTI1 is a branching or meta-state, likely representing a fork or multi-path effect.
+- This is a designed state machine, not random data.

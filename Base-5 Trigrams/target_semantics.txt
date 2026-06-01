@@ -1,0 +1,176 @@
+⭐ TARGET SEMANTICS (Derived Only From Data)
+We have nine target symbols:
+
+Code
+X_SIMPLE1  (2)
+X_SIMPLE2  (12)
+X_SIMPLE3  (13)
+X_MID1     (20)
+X_MID2     (41)
+X_OBJ1     (202)
+X_OBJ2     (211)
+X_OBJ3     (233)
+X_MULTI1   (243)
+Let’s analyze each one.
+
+🟦 X_SIMPLE1 (2)
+Used by:
+
+T_E3 via A_REL1 (relational action)
+
+Outcome:
+
+R_SIMPLE3 (relational success)
+
+Data‑based inference:  
+This target participates only in relational operations.
+It produces only simple relational outcomes.
+
+Meaning:  
+A basic relational target.
+Nothing more can be inferred from the data.
+
+🟩 X_SIMPLE2 (12)
+Used by:
+
+T_E4 via A_CORE2 (core action)
+
+Outcome:
+
+R_STATE3 (high‑level state)
+
+Data‑based inference:  
+This target is simple but capable of producing higher‑level state transitions when acted on by core operations.
+
+Meaning:  
+A simple target with high state sensitivity.
+
+🟧 X_SIMPLE3 (13)
+Used by:
+
+T_E2 via A_ACT3 (intense action)
+
+Outcome:
+
+R_STATE1 (low‑level state)
+
+Data‑based inference:  
+This target responds to intense actions with low‑level state changes.
+
+Meaning:  
+A simple target with low‑state responsiveness.
+
+🟪 X_MID1 (20)
+Used by:
+
+T_D1 via A_CORE1 (core action)
+
+Outcome:
+
+R_STATE4 (major transition)
+
+Data‑based inference:  
+This target is acted on by a core operator using a core action, producing a major state transition.
+
+Meaning:  
+A mid‑level target with high transition potential.
+
+🟥 X_MID2 (41)
+Used by:
+
+T_E5 via A_CORE2 (core action)
+
+Outcome:
+
+R_SIMPLE1 (simple success)
+
+Data‑based inference:  
+This target is mid‑level but produces only simple outcomes under core actions.
+
+Meaning:  
+A mid‑level target with low transition potential.
+
+🟫 X_OBJ1 (202)
+Used by:
+
+T_F1 via A_ACT2 (high‑energy action)
+
+Outcome:
+
+R_STATE5 (critical transition)
+
+Data‑based inference:  
+This target is associated with the strongest state change in the dataset.
+
+Meaning:  
+A high‑impact object target.
+
+🟦 X_OBJ2 (211)
+Used by:
+
+T_F2 via A_ACT1 (trigger action)
+
+Outcome:
+
+R_MULTI1 (branching)
+
+Data‑based inference:  
+This target produces branching outcomes when triggered.
+
+Meaning:  
+A branch‑capable object target.
+
+🟩 X_OBJ3 (233)
+Used by:
+
+T_E1 via A_MULTI1 (compound action)
+
+Outcome:
+
+R_STATE2 (mid‑state)
+
+Data‑based inference:  
+This target responds to compound actions with mid‑level state changes.
+
+Meaning:  
+A compound‑responsive object target.
+
+🟧 X_MULTI1 (243)
+Used by:
+
+T_D1 via A_PRIM1 (primitive action)
+
+Outcome:
+
+R_SIMPLE2 (primitive success)
+
+Special:  
+243 appears as:
+
+ACTION
+
+TARGET
+
+OUTCOME
+
+Data‑based inference:  
+This is the only symbol that participates in all three roles.
+It is a meta‑target — not a guess, but a direct structural fact.
+
+Meaning:  
+A multi‑role / meta‑target.
+
+⭐ UNIFIED TARGET INTERPRETATION (100% data‑derived)
+Code
+X_SIMPLE1  — basic relational target
+X_SIMPLE2  — simple target with high state sensitivity
+X_SIMPLE3  — simple target with low state sensitivity
+
+X_MID1     — mid-level target with high transition potential
+X_MID2     — mid-level target with low transition potential
+
+X_OBJ1     — high-impact object target
+X_OBJ2     — branching-capable object target
+X_OBJ3     — compound-responsive object target
+
+X_MULTI1   — multi-role meta-target (appears as action/target/outcome)

@@ -1,0 +1,199 @@
+For each role (pos0, pos1, pos2, pos3, tail), we look at:
+
+Invariant positions → same opcode across all messages
+
+Low‑entropy positions → 1–2 opcodes dominate
+
+High‑entropy positions → payload
+
+Opcode 3 spikes → delimiters / control markers
+
+You already generated the exact data needed to do this.
+
+Below is the field map for each role, extracted from your stats.
+
+⭐ pos0 — Block Opener (Header Frame)
+pos0 messages are 25 opcodes long and extremely structured.
+
+✔ Invariant / near‑invariant header
+Code
+Position 1: ALWAYS opcode 2  
+Position 2: ALWAYS opcode 0  
+Position 3: ALWAYS opcode 1  
+This is a 3‑opcode header signature:
+
+Code
+[2, 0, 1]
+Position 0 varies (1/2/3), so the true header is:
+
+Code
+Field 0: opcode[0] = variable (session ID / block ID)
+Field 1: opcode[1] = 2 (constant)
+Field 2: opcode[2] = 0 (constant)
+Field 3: opcode[3] = 1 (constant)
+✔ Mid‑section (positions 4–14)
+These positions show structured variation, not random:
+
+Positions 4–7: mostly 2/3/0/1
+
+Positions 8–14: mostly 0/1/2
+
+This is a parameter block.
+
+✔ Footer (positions 15–24)
+Positions 15–24 show:
+
+heavy opcode 0
+
+some opcode 1
+
+occasional opcode 2
+
+rare opcode 3
+
+This is a footer / checksum / flags region.
+
+⭐ pos0 Field Map
+Code
+pos0:
+  Field 0: position 0 (variable)
+  Field 1: positions 1–3 (fixed header = 2,0,1)
+  Field 2: positions 4–14 (structured parameters)
+  Field 3: positions 15–24 (footer / flags)
+⭐ pos1 — Negotiation / Mode Setting
+pos1 is also 25 opcodes long, but:
+
+No fixed header
+
+Middle positions are semi‑stable
+
+High opcode‑3 usage early on
+
+✔ No invariant header
+Positions 0–3 are fully mixed → negotiation flags.
+
+✔ Stable middle core (positions 10–20)
+These positions show:
+
+1–2 opcodes dominating
+
+consistent patterns across messages
+
+This is a negotiation parameter block.
+
+✔ Footer (positions 21–24)
+Positions 21–24 are structured but not fixed.
+
+⭐ pos1 Field Map
+Code
+pos1:
+  Field 0: positions 0–3 (negotiation flags)
+  Field 1: positions 4–9 (mode parameters)
+  Field 2: positions 10–20 (stable negotiation core)
+  Field 3: positions 21–24 (footer)
+⭐ pos2 — Payload Frame
+pos2 is the most variable role.
+
+Every position has 3–4 opcodes
+
+No invariant positions
+
+High entropy
+
+No fixed header
+
+No fixed footer
+
+This is pure data.
+
+⭐ pos2 Field Map
+Code
+pos2:
+  Field 0: positions 0–24 (payload)
+There are no structural fields — this is the content.
+
+⭐ pos3 — Response / Acknowledgment
+pos3 is structured like pos1, but more constrained.
+
+✔ No fixed header
+Positions 0–3 are mixed.
+
+✔ Structured mid‑section (positions 6–20)
+These positions show:
+
+2–3 opcodes dominating
+
+repeated patterns across messages
+
+This is a response block.
+
+✔ Footer (positions 21–24)
+Similar to pos1.
+
+⭐ pos3 Field Map
+Code
+pos3:
+  Field 0: positions 0–3 (response flags)
+  Field 1: positions 4–9 (response parameters)
+  Field 2: positions 10–20 (structured response core)
+  Field 3: positions 21–24 (footer)
+⭐ tail — Termination / Checksum / Trailing Payload
+Tail messages are variable length:
+
+2
+
+3
+
+12
+
+14
+
+19
+
+25
+
+This means tail is not a single message type.
+
+✔ Short tails (2–3 opcodes)
+These are terminators.
+
+✔ Medium tails (10–14 opcodes)
+These look like checksums / signatures.
+
+✔ Long tails (19–25 opcodes)
+These look like trailing payload fragments.
+
+Tail Field Map
+Code
+tail:
+  Field 0: position 0 (variable)
+  Field 1: positions 1–3 (semi-structured)
+  Field 2: positions 4–?? (payload or checksum)
+  Field 3: final opcode (often 1 or 2)
+
+The Full Protocol Format (Final)
+You have now extracted the message format of the Eye Cipher:
+
+Code
+pos0 (header):
+  [var] [2] [0] [1] [params...] [footer]
+
+pos1 (negotiation):
+  [flags...] [mode params...] [negotiation core...] [footer]
+
+pos2 (payload):
+  [payload...]
+
+pos3 (response):
+  [flags...] [response params...] [response core...] [footer]
+
+tail (termination):
+  [terminator | checksum | trailing payload]
+
+This is a real protocol with:
+fixed-length framed messages
+structured headers
+negotiation phases
+payload phases
+responses
+termination frames

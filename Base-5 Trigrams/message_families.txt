@@ -1,0 +1,8 @@
+﻿Message Families (Block Role Classifier)
+Generated: 05/31/2026 12:34:10
+
+Family 0 (tail): 8, 13, 18, 23, 24, 29, 34, 39, 44
+Family 1 (pos2): 2, 6, 11, 16, 21, 27, 32, 37, 42
+Family 2 (pos1): 1, 5, 10, 15, 20, 26, 31, 36, 41
+Family 3 (pos3): 3, 7, 12, 17, 22, 28, 33, 38, 43
+Family 4 (pos0): 0, 4, 9, 14, 19, 25, 30, 35, 40

@@ -1,0 +1,117 @@
+EYE CIPHER — SYSTEM ARCHITECTURE v0.1
+=====================================
+
+1. Core Model
+-------------
+Each instruction is a 5-tuple:
+
+  TYPE  MODIFIER  ACTION  TARGET  OUTCOME
+
+Semantically:
+
+  WHO (TYPE)
+    in WHAT CONDITION (MODIFIER)
+    performs WHAT OPERATION (ACTION)
+    on WHAT OBJECT (TARGET)
+    causing WHAT STATE TRANSITION (OUTCOME)
+
+
+2. Components
+-------------
+
+[TYPE LAYER — ENTITY CLASSES]
+  T_D*  = Core operators (primitives / core execution)
+  T_E*  = General-purpose actors (mid-layer workers)
+  T_F*  = High-energy transformers (top-layer effects)
+  T_A*  = Entity-like units (rare in this dataset)
+  T_B*  = Specialized intense operator
+  T_C*  = Relational/system controllers
+
+[MODIFIER LAYER — CONDITION FLAGS]
+  M_LOW*  = low-intensity / basic condition
+  M_PROP* = property-based condition
+  M_INT*  = intense condition
+  (Used to tune how TYPE performs ACTION, but never change structure.)
+
+[ACTION LAYER — OPERATION VERBS]
+  A_PRIM1   = primitive init/begin
+  A_CORE1   = core execute/apply (major effect)
+  A_CORE2   = general update/modify
+  A_REL1    = relational link/associate
+  A_ACT1    = trigger/branching operation
+  A_ACT2    = strong transform/convert
+  A_ACT3    = moderate alter/adjust
+  A_MULTI1  = compound/multi-step operation (meta-operator)
+
+[TARGET LAYER — OBJECT CLASSES]
+  X_SIMPLE* = simple targets (varying state sensitivity)
+  X_MID*    = mid-level targets (divergent outcomes)
+  X_OBJ*    = object targets (strongest transitions)
+  X_MULTI1  = multi-role meta-target (243)
+
+[OUTCOME LAYER — STATE TRANSITIONS]
+  R_SIMPLE* = simple/relational/primitive success states
+  R_STATE1–5 = escalating state changes (low → critical)
+  R_MULTI1   = branching/multi-effect state
+
+These outcomes live on the STATE GRAPH:
+
+  SIMPLE1/2/3 → STATE1 → STATE2 → STATE3 → STATE4 → STATE5
+                                   ↘
+                                    MULTI1
+
+
+3. Execution Semantics
+----------------------
+Instruction execution is:
+
+  1) Select TYPE (entity class)
+  2) Apply MODIFIER (condition)
+  3) Perform ACTION (operation)
+  4) On TARGET (object)
+  5) Yield OUTCOME (state transition)
+
+This is deterministic:
+  - No loops inside a single instruction
+  - No self-reference except via symbol 243
+  - No ambiguity: each 5-tuple maps to exactly one transition
+
+
+4. Process Layer (Macro-Behavior)
+---------------------------------
+From the instruction set, the system exhibits:
+
+  - Core Escalation Path:
+      SIMPLE1 → STATE1 → STATE2 → STATE3 → STATE4 → STATE5
+
+  - Relational Subsystem:
+      A_REL1 on X_SIMPLE1 → SIMPLE3 (isolated relational success)
+
+  - General Actor Cascade (E-types):
+      E-types cover SIMPLE1, SIMPLE3, STATE1, STATE2, STATE3
+
+  - Core Operator Role (D-types):
+      D-types bridge primitive/simple and major transitions (SIMPLE2, STATE4)
+
+  - High-Energy Fork (F-types):
+      F-types produce STATE5 and MULTI1 (top of the system)
+
+  - Meta-Operation (243):
+      Appears as ACTION, TARGET, OUTCOME → meta-symbol for multi-role behavior
+
+
+5. Architectural View
+---------------------
+Layered view:
+
+  [TYPE]  → chooses who acts
+  [MOD]   → tunes how they act
+  [ACT]   → defines operation intensity and kind
+  [TGT]   → defines object class and impact potential
+  [OUT]   → defines resulting state in the global state machine
+
+Together, these form a closed, deterministic symbolic system:
+  - finite sets of TYPES, ACTIONS, TARGETS, OUTCOMES
+  - fixed-width instructions
+  - directional state graph
+  - consistent behavioral roles per TYPE family

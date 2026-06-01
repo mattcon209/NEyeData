@@ -1,0 +1,57 @@
+﻿=== Eye Cipher VM Instruction Influence Map ===
+
+Action A_CORE2
+Messages: 2, 42
+
+  Field change frequencies across consecutive uses of A_CORE2
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+    Field  = 1 / 1 changes
+
+  High‑influence fields (≥80% changes):
+    0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24
+  Low‑influence fields (≤20% changes):
+    (none)
+
+Action A_ACT3
+Messages: 27
+
+  (Only one occurrence, no delta analysis possible)
+
+Action A_MULTI1
+Messages: 32
+
+  (Only one occurrence, no delta analysis possible)
+
+Action A_CORE1
+Messages: 11
+
+  (Only one occurrence, no delta analysis possible)
+
+Action A_ACT2
+Messages: 16
+
+  (Only one occurrence, no delta analysis possible)
+

@@ -1,0 +1,132 @@
+PATTERN 1 — TYPE families have consistent behavioral signatures
+---------------------------------------------------------------
+T_D1:
+  - Uses primitive/core actions (A_PRIM1, A_CORE1)
+  - Produces SIMPLE2 or STATE4
+  - Acts on mid-level or multi-role targets
+  → Core system operator
+
+T_E*:
+  - Uses the widest range of actions (REL, CORE2, ACT3, MULTI1)
+  - Produces SIMPLE1 → STATE3
+  - Acts on simple, mid, and object targets
+  → General-purpose actors
+
+T_F*:
+  - Uses high-energy actions (A_ACT1, A_ACT2)
+  - Produces STATE5 or MULTI1
+  - Acts on object targets
+  → High-impact transformers
+
+T_A*, T_B*, T_C*:
+  - Appear less frequently
+  - Each has a distinct action/target/outcome signature
+  → Specialized roles
+
+
+PATTERN 2 — ACTIONS define the "intensity" of the instruction
+-------------------------------------------------------------
+Low-intensity:
+  A_PRIM1 → SIMPLE2
+  A_REL1  → SIMPLE3
+
+Mid-intensity:
+  A_CORE2 → SIMPLE1 or STATE3
+  A_ACT3  → STATE1
+  A_MULTI1 → STATE2
+
+High-intensity:
+  A_CORE1 → STATE4
+  A_ACT2  → STATE5
+  A_ACT1  → MULTI1
+
+→ The action symbol is the strongest predictor of outcome severity.
+
+
+PATTERN 3 — TARGET classes correlate with outcome levels
+--------------------------------------------------------
+Simple targets (X_SIMPLE1/2/3):
+  → SIMPLE3, STATE1, STATE3
+
+Mid targets (X_MID1/2):
+  → SIMPLE1, STATE4
+
+Object targets (X_OBJ1/2/3):
+  → STATE2, STATE5, MULTI1
+
+Multi-role target (X_MULTI1):
+  → SIMPLE2
+
+→ Object-class targets produce the strongest transitions.
+
+
+PATTERN 4 — The system has a directional state flow
+---------------------------------------------------
+SIMPLE1 → STATE1 → STATE2 → STATE3 → STATE4 → STATE5
+                           ↘
+                            MULTI1
+
+→ No instruction ever reverses state.
+→ No instruction ever returns to a previous state.
+→ MULTI1 is the only branching state.
+
+
+PATTERN 5 — E-types dominate the "middle" of the system
+--------------------------------------------------------
+E-types produce:
+  SIMPLE1
+  SIMPLE3
+  STATE1
+  STATE2
+  STATE3
+
+→ They occupy the entire mid-range of the state machine.
+→ They bridge simple operations and high-energy transitions.
+
+PATTERN 6 — F-types handle the "top" of the system
+---------------------------------------------------
+F-types produce:
+  STATE5
+  MULTI1
+
+→ They are exclusively responsible for the strongest transitions.
+
+
+PATTERN 7 — D-types anchor the "bottom" and "core"
+---------------------------------------------------
+D-types produce:
+  SIMPLE2
+  STATE4
+
+→ They handle primitive and core operations.
+→ They connect the simple layer to the upper state layers.
+
+
+PATTERN 8 — The system is deterministic
+---------------------------------------
+Every instruction follows:
+  TYPE → ACTION → TARGET → OUTCOME
+
+No instruction:
+  - loops
+  - branches (except MULTI1)
+  - references another instruction
+  - modifies TYPE or ACTION classes
+
+→ This is a static, rule-based instruction language.
+
+
+PATTERN 9 — The system is complete with only 9 instructions
+-----------------------------------------------------------
+Despite only 9 samples, the system shows:
+  - full TYPE taxonomy
+  - full ACTION taxonomy
+  - full TARGET taxonomy
+  - full OUTCOME taxonomy
+  - complete state machine
+
+→ This is not a fragment.
+→ This is a minimal, self-contained symbolic system.
+
+
+

@@ -1,0 +1,33 @@
+﻿Opcode Profile by Role
+Generated: 05/31/2026 12:56:36
+
+Role: pos0
+  Opcode 0 : 74 (32.89%)
+  Opcode 1 : 64 (28.44%)
+  Opcode 2 : 64 (28.44%)
+  Opcode 3 : 23 (10.22%)
+
+Role: pos1
+  Opcode 0 : 69 (30.67%)
+  Opcode 1 : 67 (29.78%)
+  Opcode 2 : 60 (26.67%)
+  Opcode 3 : 29 (12.89%)
+
+Role: pos2
+  Opcode 0 : 62 (27.56%)
+  Opcode 1 : 73 (32.44%)
+  Opcode 2 : 72 (32%)
+  Opcode 3 : 18 (8%)
+
+Role: pos3
+  Opcode 0 : 73 (32.59%)
+  Opcode 1 : 65 (29.02%)
+  Opcode 2 : 68 (30.36%)
+  Opcode 3 : 18 (8.04%)
+
+Role: tail
+  Opcode 0 : 39 (28.47%)
+  Opcode 1 : 43 (31.39%)
+  Opcode 2 : 46 (33.58%)
+  Opcode 3 : 9 (6.57%)
+

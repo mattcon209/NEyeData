@@ -1,0 +1,47 @@
+﻿
+Message opcode stats:
+Message 0: Op0=9  Op1=6  Op2=7  Op3=3
+Message 1: Op0=8  Op1=10  Op2=4  Op3=3
+Message 2: Op0=9  Op1=8  Op2=8
+Message 3: Op0=5  Op1=9  Op2=7  Op3=3
+Message 4: Op0=9  Op1=6  Op2=6  Op3=4
+Message 5: Op0=10  Op1=11  Op2=3  Op3=1
+Message 6: Op0=5  Op1=9  Op2=8  Op3=3
+Message 7: Op0=9  Op1=5  Op2=10  Op3=1
+Message 8: Op0=2  Op1=1
+Message 9: Op0=9  Op1=7  Op2=6  Op3=3
+Message 10: Op0=7  Op1=7  Op2=7  Op3=4
+Message 11: Op0=9  Op1=6  Op2=7  Op3=3
+Message 12: Op0=11  Op1=7  Op2=6  Op3=1
+Message 13: Op0=3  Op1=7  Op2=7  Op3=1
+Message 14: Op0=6  Op1=9  Op2=7  Op3=3
+Message 15: Op0=8  Op1=7  Op2=7  Op3=3
+Message 16: Op0=6  Op1=7  Op2=8  Op3=4
+Message 17: Op0=7  Op1=9  Op2=7  Op3=2
+Message 18: Op0=1  Op2=1
+Message 19: Op0=5  Op1=6  Op2=11  Op3=3
+Message 20: Op0=9  Op1=6  Op2=5  Op3=5
+Message 21: Op0=8  Op1=5  Op2=10  Op3=2
+Message 22: Op0=10  Op1=5  Op2=8  Op3=2
+Message 23: Op0=10  Op1=6  Op2=7  Op3=2
+Message 24: Op0=5  Op1=3  Op2=3  Op3=1
+Message 25: Op0=8  Op1=9  Op2=7  Op3=1
+Message 26: Op0=9  Op1=9  Op2=4  Op3=3
+Message 27: Op0=6  Op1=14  Op2=5
+Message 28: Op0=10  Op1=8  Op2=6  Op3=1
+Message 29: Op0=6  Op1=6  Op2=11  Op3=1
+Message 30: Op0=9  Op1=8  Op2=6  Op3=2
+Message 31: Op0=6  Op1=4  Op2=10  Op3=5
+Message 32: Op0=4  Op1=9  Op2=9  Op3=3
+Message 33: Op0=4  Op1=9  Op2=8  Op3=4
+Message 34: Op0=4  Op1=5  Op2=7  Op3=3
+Message 35: Op0=10  Op1=5  Op2=7  Op3=3
+Message 36: Op0=7  Op1=7  Op2=8  Op3=3
+Message 37: Op0=7  Op1=5  Op2=11  Op3=2
+Message 38: Op0=8  Op1=5  Op2=10  Op3=2
+Message 39: Op0=6  Op1=10  Op2=3  Op3=1
+Message 40: Op0=9  Op1=8  Op2=7  Op3=1
+Message 41: Op0=5  Op1=6  Op2=12  Op3=2
+Message 42: Op0=8  Op1=10  Op2=6  Op3=1
+Message 43: Op0=9  Op1=8  Op2=6  Op3=2
+Message 44: Op0=2  Op1=5  Op2=7

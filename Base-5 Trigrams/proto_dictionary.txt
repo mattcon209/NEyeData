@@ -1,0 +1,71 @@
+EYE CIPHER — PROTO-DICTIONARY v0.1
+==================================
+
+Grammar:
+  TYPE  MODIFIER  ACTION  TARGET  OUTCOME
+
+Column roles:
+  C4 = TYPE
+  C5 = MODIFIER
+  C6 = ACTION
+  C7 = TARGET
+  C8 = OUTCOME
+
+TYPE symbols (C4):
+  3    -> T3 (meta/special type)
+  111  -> T_A1
+  112  -> T_A2
+  113  -> T_A3
+  114  -> T_A4
+  131  -> T_B1
+  210  -> T_C1
+  212  -> T_C2
+  224  -> T_D1
+  233  -> T_D2
+
+MODIFIER symbols (C5):
+  20   -> M_LOW1
+  23   -> M_LOW2
+  101  -> M_PROP1
+  113  -> M_PROP2
+  123  -> M_PROP3
+  140  -> M_PROP4
+  201  -> M_INT1
+  242  -> M_INT2
+
+ACTION symbols (C6):
+  1    -> A_PRIM1
+  42   -> A_REL1
+  101  -> A_CORE1
+  131  -> A_CORE2
+  204  -> A_ACT1
+  222  -> A_ACT2
+  234  -> A_ACT3
+  243  -> A_MULTI1 (also appears as target/outcome)
+
+TARGET symbols (C7):
+  2    -> X_SIMPLE1
+  12   -> X_SIMPLE2
+  13   -> X_SIMPLE3
+  20   -> X_MID1
+  41   -> X_MID2
+  202  -> X_OBJ1
+  211  -> X_OBJ2
+  233  -> X_OBJ3
+  243  -> X_MULTI1
+
+OUTCOME symbols (C8):
+  10   -> R_SIMPLE1
+  11   -> R_SIMPLE2
+  14   -> R_SIMPLE3
+  133  -> R_STATE1
+  140  -> R_STATE2
+  210  -> R_STATE3
+  221  -> R_STATE4
+  231  -> R_STATE5
+  243  -> R_MULTI1
+
+Key idea:
+  Each 5-symbol core encodes:
+    TYPE  MODIFIER  ACTION  TARGET  OUTCOME
+  This is a structured instruction language, not random data.

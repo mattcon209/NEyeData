@@ -1,0 +1,76 @@
+Count Name Group
+----- ---- -----
+    1 010  {@{MsgId=44; HeaderTriple=010; Length=14}}
+    1 014  {@{MsgId=8; HeaderTriple=014; Length=3}}
+    1 021  {@{MsgId=32; HeaderTriple=021; Length=25}}
+    1 032  {@{MsgId=7; HeaderTriple=032; Length=25}}
+    3 033  {@{MsgId=26; HeaderTriple=033; Length=25}, @{MsgId=31; HeaderTriple=033; Length=25}, @{MsgId=41; HeaderTr...
+    1 040  {@{MsgId=22; HeaderTriple=040; Length=25}}
+    1 101  {@{MsgId=34; HeaderTriple=101; Length=19}}
+    1 102  {@{MsgId=30; HeaderTriple=102; Length=25}}
+    1 104  {@{MsgId=5; HeaderTriple=104; Length=25}}
+    1 110  {@{MsgId=27; HeaderTriple=110; Length=25}}
+    1 111  {@{MsgId=17; HeaderTriple=111; Length=25}}
+    1 113  {@{MsgId=40; HeaderTriple=113; Length=25}}
+    1 114  {@{MsgId=25; HeaderTriple=114; Length=25}}
+    1 121  {@{MsgId=9; HeaderTriple=121; Length=25}}
+    1 122  {@{MsgId=12; HeaderTriple=122; Length=25}}
+    1 130  {@{MsgId=21; HeaderTriple=130; Length=25}}
+    1 131  {@{MsgId=20; HeaderTriple=131; Length=25}}
+    1 133  {@{MsgId=38; HeaderTriple=133; Length=25}}
+    1 134  {@{MsgId=6; HeaderTriple=134; Length=25}}
+    1 140  {@{MsgId=43; HeaderTriple=140; Length=25}}
+    1 200  {@{MsgId=0; HeaderTriple=200; Length=25}}
+    1 204  {@{MsgId=15; HeaderTriple=204; Length=25}}
+    1 220  {@{MsgId=18; HeaderTriple=220; Length=2}}
+    1 221  {@{MsgId=29; HeaderTriple=221; Length=24}}
+    1 222  {@{MsgId=28; HeaderTriple=222; Length=25}}
+    1 223  {@{MsgId=19; HeaderTriple=223; Length=25}}
+    1 224  {@{MsgId=11; HeaderTriple=224; Length=25}}
+    2 232  {@{MsgId=39; HeaderTriple=232; Length=20}, @{MsgId=42; HeaderTriple=232; Length=25}}
+    1 234  {@{MsgId=10; HeaderTriple=234; Length=25}}
+    1 241  {@{MsgId=3; HeaderTriple=241; Length=24}}
+    2 242  {@{MsgId=2; HeaderTriple=242; Length=25}, @{MsgId=36; HeaderTriple=242; Length=25}}
+    1 300  {@{MsgId=33; HeaderTriple=300; Length=25}}
+    1 301  {@{MsgId=14; HeaderTriple=301; Length=25}}
+    2 302  {@{MsgId=13; HeaderTriple=302; Length=18}, @{MsgId=35; HeaderTriple=302; Length=25}}
+    2 303  {@{MsgId=23; HeaderTriple=303; Length=25}, @{MsgId=24; HeaderTriple=303; Length=12}}
+    3 310  {@{MsgId=1; HeaderTriple=310; Length=25}, @{MsgId=4; HeaderTriple=310; Length=25}, @{MsgId=16; HeaderTrip...
+    1 311  {@{MsgId=37; HeaderTriple=311; Length=25}}
+
+
+Full 25:
+
+Count Name Group
+----- ---- -----
+    1 021  {@{MsgId=32; HeaderTriple=021; Length=25}}
+    1 032  {@{MsgId=7; HeaderTriple=032; Length=25}}
+    3 033  {@{MsgId=26; HeaderTriple=033; Length=25}, @{MsgId=31; HeaderTriple=033; Length=25}, @{MsgId=41; HeaderTr...
+    1 040  {@{MsgId=22; HeaderTriple=040; Length=25}}
+    1 102  {@{MsgId=30; HeaderTriple=102; Length=25}}
+    1 104  {@{MsgId=5; HeaderTriple=104; Length=25}}
+    1 110  {@{MsgId=27; HeaderTriple=110; Length=25}}
+    1 111  {@{MsgId=17; HeaderTriple=111; Length=25}}
+    1 113  {@{MsgId=40; HeaderTriple=113; Length=25}}
+    1 114  {@{MsgId=25; HeaderTriple=114; Length=25}}
+    1 121  {@{MsgId=9; HeaderTriple=121; Length=25}}
+    1 122  {@{MsgId=12; HeaderTriple=122; Length=25}}
+    1 130  {@{MsgId=21; HeaderTriple=130; Length=25}}
+    1 131  {@{MsgId=20; HeaderTriple=131; Length=25}}
+    1 133  {@{MsgId=38; HeaderTriple=133; Length=25}}
+    1 134  {@{MsgId=6; HeaderTriple=134; Length=25}}
+    1 140  {@{MsgId=43; HeaderTriple=140; Length=25}}
+    1 200  {@{MsgId=0; HeaderTriple=200; Length=25}}
+    1 204  {@{MsgId=15; HeaderTriple=204; Length=25}}
+    1 222  {@{MsgId=28; HeaderTriple=222; Length=25}}
+    1 223  {@{MsgId=19; HeaderTriple=223; Length=25}}
+    1 224  {@{MsgId=11; HeaderTriple=224; Length=25}}
+    1 232  {@{MsgId=42; HeaderTriple=232; Length=25}}
+    1 234  {@{MsgId=10; HeaderTriple=234; Length=25}}
+    2 242  {@{MsgId=2; HeaderTriple=242; Length=25}, @{MsgId=36; HeaderTriple=242; Length=25}}
+    1 300  {@{MsgId=33; HeaderTriple=300; Length=25}}
+    1 301  {@{MsgId=14; HeaderTriple=301; Length=25}}
+    1 302  {@{MsgId=35; HeaderTriple=302; Length=25}}
+    1 303  {@{MsgId=23; HeaderTriple=303; Length=25}}
+    3 310  {@{MsgId=1; HeaderTriple=310; Length=25}, @{MsgId=4; HeaderTriple=310; Length=25}, @{MsgId=16; HeaderTrip...
+    1 311  {@{MsgId=37; HeaderTriple=311; Length=25}}

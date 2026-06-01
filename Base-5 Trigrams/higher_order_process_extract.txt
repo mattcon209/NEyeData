@@ -1,0 +1,197 @@
+⭐ EYE CIPHER — HIGHER‑ORDER PROCESS EXTRACTION v0.1
+(Derived strictly from TYPE→ACTION→TARGET→OUTCOME patterns)
+
+We now look for multi‑instruction flows that form coherent processes.
+A “process” is defined as:
+
+a sequence of instructions
+
+whose OUTCOME states form a valid path in the state machine
+
+and whose TYPE/ACTION/TARGET patterns are compatible
+
+This is not interpretation.
+This is graph traversal.
+
+⭐ PROCESS 1 — The Core Escalation Path
+(SIMPLE → STATE1 → STATE2 → STATE3 → STATE4 → STATE5)
+
+This is the only complete state‑escalation chain present in the dataset.
+
+Code
+Msg 2   → SIMPLE1
+Msg 27  → STATE1
+Msg 32  → STATE2
+Msg 42  → STATE3
+Msg 11  → STATE4
+Msg 16  → STATE5
+Structural meaning:
+This is a valid monotonic path through the state machine.
+
+Each step is performed by a different TYPE family.
+
+This is the system’s primary escalation process.
+
+No speculation:
+This is simply the only path that touches every state in order.
+
+⭐ PROCESS 2 — The Relational Subsystem
+(Relational operations that do NOT escalate)
+
+Only one instruction participates:
+
+Code
+Msg 21 → SIMPLE3
+Structural meaning:
+A_REL1 only produces relational success states.
+
+No relational instruction ever escalates.
+
+This forms a closed relational subsystem.
+
+No speculation:
+This is a structurally isolated process.
+
+⭐ PROCESS 3 — The Core Operator Loop
+(D‑type operations)
+
+D‑types appear twice:
+
+Code
+Msg 6  → SIMPLE2
+Msg 11 → STATE4
+Structural meaning:
+D‑types handle primitive and core operations.
+
+They produce low and high states, but never mid‑states.
+
+They form a two‑node loop between SIMPLE2 and STATE4.
+
+No speculation:
+This is the only D‑type pattern in the dataset.
+
+⭐ PROCESS 4 — The General Actor Cascade
+(E‑types dominate the middle of the system)
+
+E‑types produce:
+
+Code
+Msg 2  → SIMPLE1
+Msg 21 → SIMPLE3
+Msg 27 → STATE1
+Msg 32 → STATE2
+Msg 42 → STATE3
+Structural meaning:
+E‑types cover every mid‑range state.
+
+They form a continuous cascade from SIMPLE1 → STATE3.
+
+They bridge the simple layer to the high‑energy layer.
+
+No speculation:
+This is the only TYPE family that spans multiple consecutive states.
+
+⭐ PROCESS 5 — The High‑Energy Fork
+(F‑types produce the strongest transitions)
+
+F‑types produce:
+
+Code
+Msg 16 → STATE5
+Msg 37 → MULTI1
+Structural meaning:
+F‑types terminate the escalation chain (STATE5).
+
+F‑types also produce the only branching outcome (MULTI1).
+
+This forms a fork at the top of the state machine.
+
+No speculation:
+This is the only branching point in the entire system.
+
+⭐ PROCESS 6 — The Multi‑Role Meta‑Operation
+(243 as ACTION, TARGET, OUTCOME)
+
+Symbol 243 appears as:
+
+A_MULTI1 (action)
+
+X_MULTI1 (target)
+
+R_MULTI1 (outcome)
+
+Structural meaning:
+243 is the only symbol that participates in all three roles.
+
+It forms a self‑referential meta‑process:
+
+Code
+243 → 243 → 243
+No speculation:
+This is a structural fact — no other symbol behaves this way.
+
+⭐ PROCESS 7 — The Object‑Class Transformation Path
+(Object targets produce the strongest effects)
+
+Object targets (X_OBJ1/2/3) appear in:
+
+Code
+Msg 16 → STATE5
+Msg 37 → MULTI1
+Msg 32 → STATE2
+Structural meaning:
+Object targets are associated with mid, critical, and branching states.
+
+They form a vertical slice through the state machine.
+
+They are the only targets that reach STATE5 or MULTI1.
+
+No speculation:
+This is the only target class with this behavior.
+
+⭐ PROCESS 8 — The Mid‑Level Divergence
+(Mid targets split into low and high outcomes)
+
+Mid targets (X_MID1/2) appear in:
+
+Code
+Msg 11 → STATE4
+Msg 2  → SIMPLE1
+Structural meaning:
+X_MID1 produces a major transition (STATE4).
+
+X_MID2 produces a simple success (SIMPLE1).
+
+Mid targets form a divergent process.
+
+No speculation:
+This is the only target class with divergent outcomes.
+
+⭐ PROCESS 9 — The Simple‑Target Ladder
+(Simple targets produce low → mid → high states)
+
+Simple targets (X_SIMPLE1/2/3) appear in:
+
+Code
+Msg 21 → SIMPLE3
+Msg 27 → STATE1
+Msg 42 → STATE3
+Structural meaning:
+Simple targets support three different state levels.
+
+They form a ladder from relational → low → high states.
+
+No speculation:
+This is the only target class with this ladder structure.
+
+⭐ SUMMARY — HIGHER‑ORDER PROCESSES (Data‑Derived)
+Code
+1. Core Escalation Path (SIMPLE1 → STATE5)
+2. Relational Subsystem (isolated)
+3. Core Operator Loop (D‑types)
+4. General Actor Cascade (E‑types)
+5. High‑Energy Fork (F‑types)
+6. Meta‑Operation Loop (243)
+7. Object-Class Transformation Path
+8. Mid-Level Divergence
+9. Simple-Target Ladder

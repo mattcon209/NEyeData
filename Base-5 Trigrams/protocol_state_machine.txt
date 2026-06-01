@@ -1,0 +1,20 @@
+﻿Protocol State Machine (Role-Level)
+Generated: 05/31/2026 12:53:16
+
+Per-block role sequences:
+  east_block_0: pos0(Msg0) -> pos1(Msg1) -> pos2(Msg2) -> pos3(Msg3)
+  west_block_0: pos0(Msg4) -> pos1(Msg5) -> pos2(Msg6) -> pos3(Msg7) -> tail(Msg8)
+  east_block_1: pos0(Msg9) -> pos1(Msg10) -> pos2(Msg11) -> pos3(Msg12) -> tail(Msg13)
+  west_block_1: pos0(Msg14) -> pos1(Msg15) -> pos2(Msg16) -> pos3(Msg17) -> tail(Msg18)
+  east_block_2: pos0(Msg19) -> pos1(Msg20) -> pos2(Msg21) -> pos3(Msg22) -> tail(Msg23) -> tail(Msg24)
+  west_block_2: pos0(Msg25) -> pos1(Msg26) -> pos2(Msg27) -> pos3(Msg28) -> tail(Msg29)
+  east_block_3: pos0(Msg30) -> pos1(Msg31) -> pos2(Msg32) -> pos3(Msg33) -> tail(Msg34)
+  west_block_3: pos0(Msg35) -> pos1(Msg36) -> pos2(Msg37) -> pos3(Msg38) -> tail(Msg39)
+  east_block_4: pos0(Msg40) -> pos1(Msg41) -> pos2(Msg42) -> pos3(Msg43) -> tail(Msg44)
+
+Role-to-role transitions (aggregated):
+  pos0->pos1 : 9
+  pos1->pos2 : 9
+  pos2->pos3 : 9
+  pos3->tail : 8
+  tail->tail : 1

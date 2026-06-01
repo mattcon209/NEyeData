@@ -1,0 +1,117 @@
+Below is every instruction sorted by its A\_XXXX action label.
+This reveals:
+
+which actions are common
+
+which actions are specialized
+
+which TYPEs use which actions
+
+what outcomes each action tends to produce
+
+This is the closest we’ve come to understanding the behavior encoded in the Eye Cipher.
+
+🟦 A_CORE2 (131)
+Appears in: Msg 2, Msg 42
+This is a core operation used by two different TYPE families.
+
+Msg 2
+T_E5 M_PROP2 A_CORE2 X_MID2 R_SIMPLE1
+
+Msg 42
+T_E4 M_PROP1 A_CORE2 X_SIMPLE2 R_STATE3
+
+Patterns
+Both are E‑family types
+
+Both use property modifiers
+
+Targets are simple/mid objects
+
+Outcomes differ (simple vs stateful)
+
+Interpretation
+A_CORE2 is a general-purpose core action used by E‑types.
+
+🟩 A_PRIM1 (1)
+Appears in: Msg 6
+Only one instance.
+
+Msg 6
+T_D1 M_INT2 A_PRIM1 X_MULTI1 R_SIMPLE2
+
+Interpretation
+A primitive, foundational action used by a stable D‑type.
+
+🟧 A_CORE1 (101)
+Appears in: Msg 11
+Only one instance.
+
+Msg 11
+T_D1 M_PROP4 A_CORE1 X_MID1 R_STATE4
+
+Interpretation
+Another core action, but used by the same D‑type as A_PRIM1.
+D‑types seem to have a “core operations” role.
+
+🟪 A_ACT2 (222)
+Appears in: Msg 16
+Only one instance.
+
+Msg 16
+T_F1 M_LOW1 A_ACT2 X_OBJ1 R_STATE5
+
+Interpretation
+A high‑energy action used by an F‑type, producing a strong state change.
+
+🟥 A_REL1 (42)
+Appears in: Msg 21
+Only one instance.
+
+Msg 21
+T_E3 M_LOW2 A_REL1 X_SIMPLE1 R_SIMPLE3
+
+Interpretation
+A relational action — likely something like “link”, “compare”, “associate”.
+
+🟫 A_ACT3 (234)
+Appears in: Msg 27
+Only one instance.
+
+Msg 27
+T_E2 M_INT1 A_ACT3 X_SIMPLE3 R_STATE1
+
+Interpretation
+A more intense action, used by an E‑type with an intense modifier.
+
+🟦 A_MULTI1 (243)
+Appears in: Msg 32
+This is a multi‑role action — it also appears as a target and outcome in other messages.
+
+Msg 32
+T_E1 M_PROP3 A_MULTI1 X_OBJ3 R_STATE2
+
+Interpretation
+A_MULTI1 is a multi‑purpose or compound action, likely representing a complex operation.
+
+🟩 A_ACT1 (204)
+Appears in: Msg 37
+Only one instance.
+
+Msg 37
+T_F2 M_PROP1 A_ACT1 X_OBJ2 R_MULTI1
+
+Interpretation
+Another high‑energy action used by an F‑type, producing a multi‑state outcome.
+
+
+Summary:
+
+A_PRIM1   — primitive action (D-type)
+A_CORE1   — core action (D-type)
+A_CORE2   — general core action (E-types)
+A_REL1    — relational action (E-type)
+A_ACT1    — active operation (F-type)
+A_ACT2    — high-energy operation (F-type)
+A_ACT3    — intense operation (E-type)
+A_MULTI1  — compound/multi-role action (E-type)

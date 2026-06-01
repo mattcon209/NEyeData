@@ -1,0 +1,37 @@
+﻿=== Eye Cipher VM Register Map ===
+
+STATE REGISTERS (track state increases):
+  24, 22, 15, 10, 4, 3, 2, 1
+
+INVERSE REGISTERS (track state decreases / complement state):
+  23, 21, 20, 18, 7
+
+OPERATIONAL REGISTERS (weak or no correlation):
+  19, 17, 16, 14, 13, 12, 11, 9, 8, 6, 5, 0
+
+Raw Scores:
+  Field 0: -64
+  Field 1: 202
+  Field 2: 223
+  Field 3: 318
+  Field 4: 239
+  Field 5: 67
+  Field 6: 6
+  Field 7: -317
+  Field 8: -5
+  Field 9: -124
+  Field 10: 194
+  Field 11: 24
+  Field 12: 133
+  Field 13: 120
+  Field 14: -58
+  Field 15: 344
+  Field 16: 55
+  Field 17: 67
+  Field 18: -198
+  Field 19: 123
+  Field 20: -256
+  Field 21: -159
+  Field 22: 206
+  Field 23: -335
+  Field 24: 164

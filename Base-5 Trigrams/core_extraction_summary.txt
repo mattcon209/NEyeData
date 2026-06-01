@@ -1,0 +1,39 @@
+EYE CIPHER — CORE EXTRACTION SUMMARY
+====================================
+
+1. Payload Extraction
+---------------------
+We isolated the true payload by removing protocol metadata.
+The payload consists of 13 trigrams per message.
+
+2. Core Identification
+----------------------
+Columns 4–8 of the payload contain the semantic content.
+These 5 positions form the "instruction core" of each message.
+
+3. Core Structure
+-----------------
+The Eye Cipher uses a 5-symbol grammar:
+
+    TYPE  MODIFIER  ACTION  TARGET  OUTCOME
+
+4. Column Roles
+---------------
+C4 = Type (noun class / subject)
+C5 = Modifier (property / state)
+C6 = Action (verb)
+C7 = Target (object)
+C8 = Outcome (result)
+
+5. Symbol Clusters
+------------------
+TYPE:     3, 111, 112, 113, 114, 131, 210, 212, 224, 233
+MODIFIER: 20, 23, 101, 113, 123, 140, 201, 242
+ACTION:   1, 42, 101, 131, 204, 222, 234, 243
+TARGET:   2, 12, 13, 20, 41, 202, 211, 233, 243
+OUTCOME:  10, 11, 14, 133, 140, 210, 221, 231, 243
+
+6. Key Insight
+--------------
+The Eye Cipher is a structured, reversible, fixed-width
+instruction language with a clear semantic grammar.

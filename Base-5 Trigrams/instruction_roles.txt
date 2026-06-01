@@ -1,0 +1,1313 @@
+﻿=== INSTRUCTION ROLE CLASSIFICATION ===
+
+Trigram 0  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.371
+  Predecessor Opcodes:
+    0 : 3
+    1 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 3
+
+Trigram 1  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.7527
+  Predecessor Opcodes:
+    0 : 2
+    1 : 4
+    2 : 4
+    3 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 3
+    2 : 4
+
+Trigram 2  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.6577
+  Predecessor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 5
+    3 : 2
+  Successor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 5
+    3 : 1
+
+Trigram 3  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.4591
+  Predecessor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 3
+    2 : 1
+
+Trigram 4  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.4354
+  Predecessor Opcodes:
+    0 : 2
+    1 : 4
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 6
+
+Trigram 5  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.0385
+  EndProb:   0
+  Entropy:   1.7736
+  Predecessor Opcodes:
+    0 : 3
+    1 : 5
+    2 : 5
+    3 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 8
+    1 : 1
+    2 : 1
+    3 : 1
+
+Trigram 6  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8231
+  Predecessor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 1
+    2 : 3
+    3 : 2
+  Successor Opcodes:
+    0 : 4
+    1 : 4
+    2 : 2
+    3 : 1
+
+Trigram 7  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   0.7219
+  Predecessor Opcodes:
+    0 : 1
+    1 : 1
+    2 : 2
+    3 : 2
+  Successor Opcodes:
+    0 : 1
+    1 : 4
+
+Trigram 8  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.3921
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    1 : 1
+    2 : 2
+    3 : 2
+  Successor Opcodes:
+    0 : 4
+    1 : 4
+    2 : 1
+
+Trigram 9  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.0769
+  EndProb:   0
+  Entropy:   1.361
+  Predecessor Opcodes:
+    0 : 2
+    1 : 1
+    1 : 1
+    2 : 5
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 5
+    2 : 1
+
+Trigram 10  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.3921
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 4
+    2 : 4
+
+Trigram 11  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.0625
+  EndProb:   0
+  Entropy:   1.5219
+  Predecessor Opcodes:
+    0 : 1
+    0 : 2
+    1 : 3
+    1 : 1
+    2 : 5
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 6
+    2 : 6
+
+Trigram 12  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.4591
+  Predecessor Opcodes:
+    0 : 2
+    1 : 3
+    1 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 3
+    2 : 1
+
+Trigram 13  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   2.1493
+  Predecessor Opcodes:
+    0 : 4
+    1 : 8
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 5
+    2 : 3
+    3 : 2
+    3 : 1
+
+Trigram 14  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8911
+  Predecessor Opcodes:
+    0 : 2
+    1 : 5
+    2 : 4
+  Successor Opcodes:
+    0 : 1
+    1 : 3
+    2 : 2
+    3 : 3
+
+Trigram 15  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.75
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 1
+    3 : 2
+  Successor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 2
+    3 : 1
+
+Trigram 16  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9219
+  Predecessor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 4
+  Successor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 1
+    3 : 1
+
+Trigram 17  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.0833
+  EndProb:   0
+  Entropy:   1.4949
+  Predecessor Opcodes:
+    0 : 3
+    1 : 3
+    2 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 5
+
+Trigram 18  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.2143
+  EndProb:   0
+  Entropy:   1.4355
+  Predecessor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 6
+  Successor Opcodes:
+    0 : 2
+    1 : 5
+    2 : 2
+
+Trigram 19  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.961
+  Predecessor Opcodes:
+    0 : 3
+    1 : 6
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    0 : 1
+    1 : 5
+    2 : 2
+    3 : 1
+
+Trigram 20  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0.0909
+  EndProb:   0
+  Entropy:   1.4855
+  Predecessor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 2
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 5
+    1 : 2
+    2 : 3
+
+Trigram 21  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.7641
+  Predecessor Opcodes:
+    0 : 6
+    1 : 3
+    2 : 4
+    3 : 2
+  Successor Opcodes:
+    0 : 6
+    1 : 3
+    2 : 6
+    3 : 1
+
+Trigram 22  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.961
+  Predecessor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 2
+    3 : 3
+  Successor Opcodes:
+    0 : 2
+    0 : 1
+    1 : 1
+    2 : 5
+    3 : 1
+
+Trigram 23  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8366
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 2
+    1 : 1
+    2 : 4
+
+Trigram 24  Opcode 0
+  Role: LITERAL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8424
+  Predecessor Opcodes:
+    0 : 3
+    1 : 4
+    2 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 3
+    2 : 1
+    2 : 2
+
+Trigram 25  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8062
+  Predecessor Opcodes:
+    0 : 1
+    0 : 3
+    1 : 3
+    2 : 5
+    3 : 3
+  Successor Opcodes:
+    0 : 6
+    1 : 4
+    2 : 4
+    3 : 1
+
+Trigram 26  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0526
+  EndProb:   0
+  Entropy:   1.9785
+  Predecessor Opcodes:
+    0 : 5
+    1 : 1
+    1 : 5
+    2 : 3
+    3 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 5
+    1 : 4
+    2 : 6
+    3 : 4
+
+Trigram 27  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.3333
+  EndProb:   0
+  Entropy:   1.585
+  Predecessor Opcodes:
+    0 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    2 : 1
+
+Trigram 28  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9183
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 2
+    3 : 1
+
+Trigram 29  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0714
+  EndProb:   0
+  Entropy:   1.3788
+  Predecessor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 1
+
+Trigram 30  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0667
+  EndProb:   0
+  Entropy:   1.5546
+  Predecessor Opcodes:
+    0 : 5
+    1 : 7
+    2 : 2
+  Successor Opcodes:
+    0 : 4
+    1 : 3
+    2 : 5
+
+Trigram 31  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0909
+  EndProb:   0
+  Entropy:   1.761
+  Predecessor Opcodes:
+    0 : 2
+    1 : 4
+    2 : 4
+  Successor Opcodes:
+    0 : 5
+    1 : 1
+    2 : 2
+    3 : 2
+
+Trigram 32  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.7527
+  Predecessor Opcodes:
+    0 : 4
+    1 : 4
+    2 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 3
+    2 : 1
+    2 : 1
+
+Trigram 33  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.125
+  EndProb:   0
+  Entropy:   1.8113
+  Predecessor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 3
+    2 : 3
+
+Trigram 34  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0625
+  EndProb:   0
+  Entropy:   1.9508
+  Predecessor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 1
+    2 : 7
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 4
+    2 : 5
+    3 : 1
+
+Trigram 35  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9219
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    1 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 1
+    2 : 1
+
+Trigram 36  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.1111
+  EndProb:   0
+  Entropy:   2.1281
+  Predecessor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 1
+    3 : 1
+    3 : 1
+
+Trigram 37  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0909
+  EndProb:   0
+  Entropy:   1.6767
+  Predecessor Opcodes:
+    0 : 2
+    0 : 1
+    1 : 1
+    2 : 6
+  Successor Opcodes:
+    0 : 4
+    0 : 1
+    1 : 5
+    2 : 1
+
+Trigram 38  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9183
+  Predecessor Opcodes:
+    0 : 1
+    1 : 2
+    1 : 1
+    2 : 3
+  Successor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 2
+    3 : 1
+
+Trigram 39  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.3788
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 2
+
+Trigram 40  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0588
+  EndProb:   0
+  Entropy:   2.182
+  Predecessor Opcodes:
+    0 : 4
+    0 : 1
+    1 : 3
+    2 : 1
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 3
+    1 : 1
+    2 : 4
+    3 : 2
+
+Trigram 41  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.1111
+  EndProb:   0
+  Entropy:   1.9056
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 3
+  Successor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 3
+    3 : 2
+
+Trigram 42  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8262
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 6
+    3 : 4
+  Successor Opcodes:
+    0 : 5
+    1 : 3
+    2 : 4
+    3 : 1
+
+Trigram 43  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0667
+  EndProb:   0
+  Entropy:   1.9242
+  Predecessor Opcodes:
+    0 : 6
+    1 : 3
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 3
+    2 : 5
+    3 : 2
+
+Trigram 44  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.0769
+  EndProb:   0
+  Entropy:   1.371
+  Predecessor Opcodes:
+    0 : 4
+    1 : 3
+    2 : 1
+    3 : 2
+  Successor Opcodes:
+    0 : 2
+    1 : 6
+    2 : 2
+
+Trigram 45  Opcode 1
+  Role: STRUCT_HEADER
+  StartProb: 0.1
+  EndProb:   0
+  Entropy:   1.88
+  Predecessor Opcodes:
+    0 : 3
+    1 : 4
+    2 : 2
+  Successor Opcodes:
+    0 : 1
+    1 : 1
+    2 : 5
+    3 : 1
+    3 : 1
+
+Trigram 46  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.5613
+  Predecessor Opcodes:
+    0 : 3
+    0 : 1
+    1 : 1
+    2 : 3
+  Successor Opcodes:
+    0 : 3
+    1 : 3
+    2 : 2
+
+Trigram 47  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9329
+  Predecessor Opcodes:
+    0 : 6
+    1 : 4
+    2 : 4
+    3 : 2
+  Successor Opcodes:
+    0 : 4
+    1 : 5
+    2 : 4
+    3 : 2
+
+Trigram 48  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8366
+  Predecessor Opcodes:
+    0 : 4
+    1 : 4
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 1
+    2 : 4
+
+Trigram 49  Opcode 1
+  Role: STRUCT_FIELD
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.961
+  Predecessor Opcodes:
+    0 : 6
+    1 : 5
+    2 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 5
+    2 : 2
+    3 : 1
+    3 : 1
+
+Trigram 50  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.125
+  EndProb:   0
+  Entropy:   1.75
+  Predecessor Opcodes:
+    0 : 1
+    1 : 3
+    2 : 2
+  Successor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 4
+    3 : 1
+
+Trigram 51  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.761
+  Predecessor Opcodes:
+    0 : 3
+    1 : 5
+    2 : 2
+  Successor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 5
+    3 : 1
+
+Trigram 52  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.5
+  Predecessor Opcodes:
+    0 : 1
+    1 : 1
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    2 : 2
+    3 : 1
+
+Trigram 53  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9183
+  Predecessor Opcodes:
+    0 : 1
+    1 : 2
+    2 : 3
+  Successor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 2
+    3 : 1
+
+Trigram 54  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.0455
+  EndProb:   0
+  Entropy:   1.7922
+  Predecessor Opcodes:
+    0 : 3
+    1 : 6
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 6
+    1 : 4
+    2 : 6
+    3 : 1
+
+Trigram 55  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.5305
+  Predecessor Opcodes:
+    0 : 2
+    1 : 1
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    1 : 3
+    2 : 2
+
+Trigram 56  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8113
+  Predecessor Opcodes:
+    0 : 4
+    2 : 3
+  Successor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 1
+    2 : 3
+
+Trigram 57  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.5486
+  Predecessor Opcodes:
+    0 : 3
+    1 : 3
+    2 : 1
+    2 : 5
+    3 : 1
+  Successor Opcodes:
+    0 : 5
+    1 : 5
+    2 : 3
+
+Trigram 58  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.8424
+  Predecessor Opcodes:
+    0 : 4
+    1 : 1
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 2
+    3 : 1
+
+Trigram 59  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.75
+  Predecessor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 3
+    3 : 2
+  Successor Opcodes:
+    0 : 1
+    1 : 4
+    2 : 1
+    3 : 2
+
+Trigram 60  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.0435
+  EndProb:   0
+  Entropy:   2.169
+  Predecessor Opcodes:
+    0 : 6
+    1 : 8
+    2 : 3
+  Successor Opcodes:
+    0 : 7
+    1 : 1
+    1 : 5
+    2 : 3
+    3 : 1
+    3 : 1
+
+Trigram 61  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.1
+  EndProb:   0
+  Entropy:   1.5488
+  Predecessor Opcodes:
+    0 : 1
+    1 : 1
+    2 : 1
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 5
+    1 : 1
+    2 : 1
+
+Trigram 62  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.0526
+  EndProb:   0
+  Entropy:   1.7899
+  Predecessor Opcodes:
+    0 : 3
+    1 : 4
+    1 : 1
+    2 : 5
+  Successor Opcodes:
+    0 : 5
+    1 : 3
+    2 : 2
+    3 : 1
+
+Trigram 63  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.0625
+  EndProb:   0
+  Entropy:   2.0546
+  Predecessor Opcodes:
+    0 : 3
+    1 : 1
+    1 : 3
+    2 : 6
+    3 : 1
+  Successor Opcodes:
+    0 : 5
+    1 : 1
+    1 : 1
+    2 : 3
+    3 : 2
+
+Trigram 64  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.0556
+  EndProb:   0
+  Entropy:   1.7131
+  Predecessor Opcodes:
+    0 : 6
+    1 : 2
+    1 : 1
+    2 : 3
+    3 : 1
+  Successor Opcodes:
+    0 : 5
+    1 : 3
+    2 : 8
+    3 : 1
+
+Trigram 65  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.6855
+  Predecessor Opcodes:
+    0 : 2
+    1 : 1
+    1 : 3
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 5
+    2 : 3
+    3 : 1
+
+Trigram 66  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9363
+  Predecessor Opcodes:
+    0 : 4
+    1 : 7
+    2 : 2
+    2 : 1
+    3 : 3
+  Successor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 4
+    3 : 2
+
+Trigram 67  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.1538
+  EndProb:   0
+  Entropy:   1.8464
+  Predecessor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 2
+    3 : 1
+    3 : 1
+  Successor Opcodes:
+    0 : 2
+    1 : 3
+    2 : 4
+    3 : 1
+
+Trigram 68  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   2.3554
+  Predecessor Opcodes:
+    0 : 2
+    1 : 5
+    2 : 4
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 1
+    1 : 1
+    2 : 1
+    2 : 4
+    3 : 2
+
+Trigram 69  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.1111
+  EndProb:   0
+  Entropy:   1.9749
+  Predecessor Opcodes:
+    0 : 1
+    2 : 6
+    3 : 1
+  Successor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 2
+    3 : 2
+
+Trigram 70  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.9056
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 4
+  Successor Opcodes:
+    0 : 3
+    1 : 2
+    2 : 2
+    3 : 1
+
+Trigram 71  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.1
+  EndProb:   0
+  Entropy:   1.4056
+  Predecessor Opcodes:
+    0 : 2
+    1 : 2
+    2 : 1
+    2 : 1
+  Successor Opcodes:
+    0 : 4
+    2 : 3
+    3 : 1
+
+Trigram 72  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0.2
+  EndProb:   0
+  Entropy:   1.3516
+  Predecessor Opcodes:
+    0 : 2
+    1 : 3
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 1
+    1 : 3
+    2 : 5
+
+Trigram 73  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.7219
+  Predecessor Opcodes:
+    0 : 3
+    1 : 3
+    2 : 3
+  Successor Opcodes:
+    0 : 4
+    1 : 4
+    1 : 1
+    2 : 1
+
+Trigram 74  Opcode 2
+  Role: PAYLOAD_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   1.3921
+  Predecessor Opcodes:
+    0 : 4
+    1 : 2
+    2 : 2
+    3 : 1
+  Successor Opcodes:
+    0 : 4
+    2 : 4
+    3 : 1
+
+Trigram 75  Opcode 3
+  Role: CONTROL_MISC
+  StartProb: 0.0556
+  EndProb:   0
+  Entropy:   1.5219
+  Predecessor Opcodes:
+    0 : 1
+    1 : 4
+    2 : 3
+    3 : 2
+  Successor Opcodes:
+    0 : 2
+    1 : 4
+    2 : 4
+
+Trigram 76  Opcode 3
+  Role: BLOCK_START / CONTROL
+  StartProb: 0.125
+  EndProb:   0
+  Entropy:   0.9544
+  Predecessor Opcodes:
+    0 : 1
+    1 : 3
+    2 : 2
+  Successor Opcodes:
+    0 : 3
+    2 : 5
+
+Trigram 77  Opcode 3
+  Role: BLOCK_START / CONTROL
+  StartProb: 0.2
+  EndProb:   0
+  Entropy:   1.8464
+  Predecessor Opcodes:
+    1 : 3
+    2 : 3
+    3 : 2
+  Successor Opcodes:
+    0 : 2
+    1 : 3
+    1 : 1
+    2 : 4
+
+Trigram 78  Opcode 3
+  Role: BLOCK_START / CONTROL
+  StartProb: 0.1538
+  EndProb:   0
+  Entropy:   1.7219
+  Predecessor Opcodes:
+    0 : 2
+    1 : 6
+    2 : 1
+  Successor Opcodes:
+    0 : 4
+    0 : 1
+    1 : 4
+    2 : 1
+
+Trigram 79  Opcode 3
+  Role: CONTROL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   2.4591
+  Predecessor Opcodes:
+    0 : 1
+    1 : 1
+    1 : 3
+    2 : 5
+  Successor Opcodes:
+    0 : 3
+    1 : 1
+    1 : 3
+    2 : 2
+    3 : 1
+    3 : 2
+
+Trigram 80  Opcode 3
+  Role: BLOCK_START / CONTROL
+  StartProb: 0.2
+  EndProb:   0
+  Entropy:   2.1997
+  Predecessor Opcodes:
+    0 : 3
+    1 : 4
+    2 : 1
+    2 : 3
+  Successor Opcodes:
+    0 : 6
+    1 : 1
+    1 : 1
+    2 : 2
+    3 : 1
+    3 : 2
+
+Trigram 81  Opcode 3
+  Role: CONTROL_MISC
+  StartProb: 0.0714
+  EndProb:   0
+  Entropy:   1.6858
+  Predecessor Opcodes:
+    0 : 3
+    1 : 1
+    2 : 5
+    3 : 1
+  Successor Opcodes:
+    0 : 6
+    1 : 2
+    2 : 2
+    3 : 1
+
+Trigram 82  Opcode 3
+  Role: CONTROL_MISC
+  StartProb: 0
+  EndProb:   0
+  Entropy:   0.9852
+  Predecessor Opcodes:
+    0 : 3
+    2 : 2
+    3 : 2
+  Successor Opcodes:
+    0 : 3
+    1 : 4
+
+

@@ -1,0 +1,78 @@
+﻿
+Distribution of (d1,d2) across nodes:
+d1=0  d2=0  Count=4
+d1=0  d2=1  Count=4
+d1=0  d2=2  Count=4
+d1=0  d2=3  Count=4
+d1=0  d2=4  Count=4
+d1=1  d2=0  Count=4
+d1=1  d2=1  Count=4
+d1=1  d2=2  Count=4
+d1=1  d2=3  Count=3
+d1=1  d2=4  Count=3
+d1=2  d2=0  Count=3
+d1=2  d2=1  Count=3
+d1=2  d2=2  Count=3
+d1=2  d2=3  Count=3
+d1=2  d2=4  Count=3
+d1=3  d2=0  Count=3
+d1=3  d2=1  Count=3
+d1=3  d2=2  Count=3
+d1=3  d2=3  Count=3
+d1=3  d2=4  Count=3
+d1=4  d2=0  Count=3
+d1=4  d2=1  Count=3
+d1=4  d2=2  Count=3
+d1=4  d2=3  Count=3
+d1=4  d2=4  Count=3
+
+Average In/Out per (d1,d2):
+d1=0  d2=0  AvgIn=9.00  AvgOut=9.50
+d1=0  d2=1  AvgIn=11.00  AvgOut=11.50
+d1=0  d2=2  AvgIn=6.25  AvgOut=6.50
+d1=0  d2=3  AvgIn=7.25  AvgOut=7.00
+d1=0  d2=4  AvgIn=10.00  AvgOut=11.75
+d1=1  d2=0  AvgIn=12.00  AvgOut=12.25
+d1=1  d2=1  AvgIn=9.50  AvgOut=10.00
+d1=1  d2=2  AvgIn=9.00  AvgOut=8.50
+d1=1  d2=3  AvgIn=8.00  AvgOut=8.00
+d1=1  d2=4  AvgIn=11.33  AvgOut=10.00
+d1=2  d2=0  AvgIn=11.00  AvgOut=10.67
+d1=2  d2=1  AvgIn=8.67  AvgOut=10.00
+d1=2  d2=2  AvgIn=9.67  AvgOut=9.33
+d1=2  d2=3  AvgIn=12.33  AvgOut=11.00
+d1=2  d2=4  AvgIn=10.33  AvgOut=11.00
+d1=3  d2=0  AvgIn=10.00  AvgOut=10.67
+d1=3  d2=1  AvgIn=11.00  AvgOut=8.00
+d1=3  d2=2  AvgIn=10.67  AvgOut=11.33
+d1=3  d2=3  AvgIn=11.00  AvgOut=11.67
+d1=3  d2=4  AvgIn=10.67  AvgOut=9.67
+d1=4  d2=0  AvgIn=8.67  AvgOut=9.00
+d1=4  d2=1  AvgIn=9.67  AvgOut=10.67
+d1=4  d2=2  AvgIn=11.67  AvgOut=11.33
+d1=4  d2=3  AvgIn=10.00  AvgOut=9.33
+d1=4  d2=4  AvgIn=9.67  AvgOut=8.67
+
+Bottleneck count per (d1,d2):
+d1=0  d2=0  Bottlenecks=1
+d1=0  d2=1  Bottlenecks=2
+d1=0  d2=4  Bottlenecks=3
+d1=1  d2=0  Bottlenecks=3
+d1=1  d2=1  Bottlenecks=2
+d1=1  d2=2  Bottlenecks=1
+d1=1  d2=4  Bottlenecks=1
+d1=2  d2=0  Bottlenecks=1
+d1=2  d2=1  Bottlenecks=1
+d1=2  d2=2  Bottlenecks=2
+d1=2  d2=3  Bottlenecks=2
+d1=2  d2=4  Bottlenecks=2
+d1=3  d2=0  Bottlenecks=1
+d1=3  d2=1  Bottlenecks=1
+d1=3  d2=2  Bottlenecks=2
+d1=3  d2=3  Bottlenecks=2
+d1=3  d2=4  Bottlenecks=1
+d1=4  d2=1  Bottlenecks=1
+d1=4  d2=2  Bottlenecks=2
+d1=4  d2=3  Bottlenecks=1
+d1=4  d2=4  Bottlenecks=1
+Done. Wrote node triple table to .\cfg_node_triples.txt and stats to .\cfg_triple_stats.txt

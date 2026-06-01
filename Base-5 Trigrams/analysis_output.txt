@@ -1,0 +1,61 @@
+﻿=== Opcode transition matrix ===
+0 -> 1 : 113
+2 -> 0 : 103
+2 -> 2 : 95
+1 -> 0 : 93
+1 -> 2 : 90
+0 -> 2 : 85
+1 -> 1 : 80
+2 -> 1 : 78
+0 -> 0 : 77
+3 -> 0 : 36
+1 -> 3 : 32
+2 -> 3 : 28
+3 -> 2 : 27
+3 -> 1 : 27
+0 -> 3 : 20
+3 -> 3 : 7
+
+=== Candidate start-of-block trigrams (freq at position 0) ===
+Trigram 80  Opcode 3  Starts 3  Total 15
+Trigram 18  Opcode 0  Starts 3  Total 14
+Trigram 72  Opcode 2  Starts 2  Total 10
+Trigram 67  Opcode 2  Starts 2  Total 13
+Trigram 78  Opcode 3  Starts 2  Total 13
+Trigram 77  Opcode 3  Starts 2  Total 10
+Trigram 30  Opcode 1  Starts 1  Total 15
+Trigram 31  Opcode 1  Starts 1  Total 11
+Trigram 33  Opcode 1  Starts 1  Total 8
+Trigram 36  Opcode 1  Starts 1  Total 9
+Trigram 37  Opcode 1  Starts 1  Total 11
+Trigram 34  Opcode 1  Starts 1  Total 16
+Trigram 40  Opcode 1  Starts 1  Total 17
+Trigram 29  Opcode 1  Starts 1  Total 14
+Trigram 11  Opcode 0  Starts 1  Total 16
+Trigram 9  Opcode 0  Starts 1  Total 13
+Trigram 5  Opcode 0  Starts 1  Total 26
+Trigram 17  Opcode 0  Starts 1  Total 12
+Trigram 27  Opcode 1  Starts 1  Total 3
+Trigram 26  Opcode 1  Starts 1  Total 19
+Trigram 20  Opcode 0  Starts 1  Total 11
+Trigram 64  Opcode 2  Starts 1  Total 18
+Trigram 69  Opcode 2  Starts 1  Total 9
+Trigram 62  Opcode 2  Starts 1  Total 19
+Trigram 63  Opcode 2  Starts 1  Total 16
+Trigram 76  Opcode 3  Starts 1  Total 8
+Trigram 81  Opcode 3  Starts 1  Total 14
+Trigram 71  Opcode 2  Starts 1  Total 10
+Trigram 75  Opcode 3  Starts 1  Total 18
+Trigram 44  Opcode 1  Starts 1  Total 13
+Trigram 45  Opcode 1  Starts 1  Total 10
+Trigram 41  Opcode 1  Starts 1  Total 9
+Trigram 43  Opcode 1  Starts 1  Total 15
+Trigram 60  Opcode 2  Starts 1  Total 23
+Trigram 61  Opcode 2  Starts 1  Total 10
+Trigram 50  Opcode 2  Starts 1  Total 8
+Trigram 54  Opcode 2  Starts 1  Total 22
+
+=== Trigrams that only appear after a single opcode ===
+
+=== Trigrams that only appear before a single opcode ===
+

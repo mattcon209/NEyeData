@@ -1,0 +1,247 @@
+⭐ ACTION SEMANTICS (Inferred Meanings)
+We infer meaning from:
+
+which TYPEs use each action
+
+what TARGET classes they operate on
+
+what OUTCOME states they produce
+
+how they fit into the state graph
+
+how modifiers influence them
+
+Let’s go action by action.
+
+🟦 A_PRIM1 (1) — “Initialize / Begin / Activate”
+Used by:
+
+T_D1 (core operator)
+
+Target:
+
+X_MULTI1 (multi‑target)
+
+Outcome:
+
+R_SIMPLE2 (primitive success)
+
+Interpretation:  
+This is the simplest operation in the system.
+It likely means something like:
+
+init
+
+start
+
+activate
+
+enable
+
+It’s the “boot” or “begin” verb.
+
+🟩 A_CORE1 (101) — “Process / Execute / Apply”
+Used by:
+
+T_D1 (core operator)
+
+Target:
+
+X_MID1
+
+Outcome:
+
+R_STATE4 (major transition)
+
+Interpretation:  
+A core operation that produces a major state change.
+This is a “heavy” version of A_PRIM1.
+
+Likely meanings:
+
+execute
+
+apply
+
+transform
+
+🟧 A_CORE2 (131) — “Operate / Modify / Update”
+Used by:
+
+T_E5
+
+T_E4
+
+Targets:
+
+X_MID2
+
+X_SIMPLE2
+
+Outcomes:
+
+R_SIMPLE1
+
+R_STATE3
+
+Interpretation:  
+A general‑purpose core action used by E‑types.
+It produces simple or mid‑level state changes.
+
+Likely meanings:
+
+update
+
+modify
+
+operate on
+
+🟪 A_REL1 (42) — “Link / Associate / Connect”
+Used by:
+
+T_E3
+
+Target:
+
+X_SIMPLE1
+
+Outcome:
+
+R_SIMPLE3 (relational success)
+
+Interpretation:  
+This is the only relational action in the system.
+
+Likely meanings:
+
+link
+
+associate
+
+bind
+
+connect
+
+🟥 A_ACT1 (204) — “Trigger / Invoke / Stimulate”
+Used by:
+
+T_F2 (high‑energy operator)
+
+Target:
+
+X_OBJ2
+
+Outcome:
+
+R_MULTI1 (branching)
+
+Interpretation:  
+This action causes multi‑effect outcomes.
+It’s a branching or triggering operation.
+
+Likely meanings:
+
+trigger
+
+invoke
+
+stimulate
+
+activate complex behavior
+
+🟫 A_ACT2 (222) — “Transform / Convert / Elevate”
+Used by:
+
+T_F1
+
+Target:
+
+X_OBJ1
+
+Outcome:
+
+R_STATE5 (critical transition)
+
+Interpretation:  
+This is the strongest state‑changing action in the system.
+
+Likely meanings:
+
+transform
+
+convert
+
+elevate
+
+upgrade
+
+🟦 A_ACT3 (234) — “Alter / Adjust / Reconfigure”
+Used by:
+
+T_E2
+
+Target:
+
+X_SIMPLE3
+
+Outcome:
+
+R_STATE1 (low‑level state change)
+
+Interpretation:  
+A moderate‑intensity action used by E‑types.
+
+Likely meanings:
+
+alter
+
+adjust
+
+reconfigure
+
+🟩 A_MULTI1 (243) — “Compound / Branch / Multi‑Operate”
+Used by:
+
+T_E1
+
+Target:
+
+X_OBJ3
+
+Outcome:
+
+R_STATE2 (mid‑level state change)
+
+Special:  
+243 appears as:
+
+an ACTION
+
+a TARGET
+
+an OUTCOME
+
+This is a meta‑operator.
+
+Likely meanings:
+
+compound operation
+
+multi‑step process
+
+branching action
+
+parallel operation
+
+⭐ Unified ACTION Interpretation
+Here is the full action taxonomy in plain language:
+
+Code
+A_PRIM1   — initialize / begin
+A_CORE1   — execute / apply (major effect)
+A_CORE2   — update / modify (general effect)
+A_REL1    — link / associate
+A_ACT1    — trigger / stimulate (branching)
+A_ACT2    — transform / convert (critical)
+A_ACT3    — alter / adjust (moderate)
+A_MULTI1  — compound / multi-step / branching

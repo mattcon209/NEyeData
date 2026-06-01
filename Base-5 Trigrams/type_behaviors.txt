@@ -1,0 +1,6 @@
+T_D1 — stable, core operator  
+T_E* — general-purpose actors (broad family)  
+T_F* — high-level operators acting on objects  
+T_A* — entity-like, core-action actors  
+T_B1 — specialized, intense-action actor  
+T_C* — system-level relational/active actors
