@@ -1,0 +1,9 @@
+*.diff
+*.ts
+*.bat
+*.ps1
+cauldronDates.txt
+/node_modules
+tsconfig.json
+package.json
+package-lock.json
